@@ -1,28 +1,28 @@
 class Solution {
-
-    public boolean checkPossibility(int[] v, int day, int m, int k, int n){
+    public boolean checkPossibility(int[] bloomDay, int m, int k, int day) {
+        int n = bloomDay.length;
         int bloomedFlowers = 0;
         int bouquetMade = 0;
 
-        for(int i=0; i<n; i++) {
-            if(v[i]<=day) {
+        for(int i = 0; i < n; i++) {
+            if(bloomDay[i] <= day) {
                 bloomedFlowers++;
             } else {
-                bouquetMade += bloomedFlowers/k;
+                bouquetMade += bloomedFlowers / k;
                 bloomedFlowers = 0;
             }
         }
-        bouquetMade += bloomedFlowers/k;
+        bouquetMade += bloomedFlowers / k;
         return bouquetMade >= m;
     }
     public int minDays(int[] bloomDay, int m, int k) {
-        int n = bloomDay.length;
+        int flowers = bloomDay.length;
 
-        if((long)m*k > n) return -1;
+        if((long)m*k > flowers) return -1;
+
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
-
-        for(int i=0; i<n; i++) {
+        for(int i = 0; i < flowers; i++) {
             min = Math.min(min, bloomDay[i]);
             max = Math.max(max, bloomDay[i]);
         }
@@ -31,12 +31,12 @@ class Solution {
         int high = max;
 
         while(low <= high) {
-            int mid = low + (high - low)/2;
+            int mid = low + (high - low) / 2;
 
-            boolean isPossible = checkPossibility(bloomDay, mid, m, k, n);
+            boolean isPossible = checkPossibility(bloomDay, m, k, mid);
 
-            if(isPossible) high = mid-1;
-            else low = mid+1;
+            if(isPossible == true) high = mid - 1;
+            else low = mid + 1;
         }
         return low;
     }
