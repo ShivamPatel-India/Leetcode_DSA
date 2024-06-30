@@ -18,8 +18,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0162-find-peak-element) |
+| [0907-koko-eating-bananas](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0907-koko-eating-bananas) |
 ## Binary Search
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0162-find-peak-element) |
+| [0907-koko-eating-bananas](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0907-koko-eating-bananas) |
 <!---LeetCode Topics End-->
