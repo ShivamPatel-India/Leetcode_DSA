@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0162-find-peak-element) |
+| [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [0907-koko-eating-bananas](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0907-koko-eating-bananas) |
@@ -56,5 +57,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0283-move-zeroes) |
+## Math
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
