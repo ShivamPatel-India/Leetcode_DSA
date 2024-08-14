@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0136-single-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
@@ -77,5 +78,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
