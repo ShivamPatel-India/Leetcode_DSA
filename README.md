@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0007-reverse-integer) |
 | [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 ## Hash Table
