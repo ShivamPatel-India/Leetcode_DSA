@@ -124,13 +124,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0232-implement-queue-using-stacks) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
 ## Design
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0232-implement-queue-using-stacks) |
 ## Queue
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
