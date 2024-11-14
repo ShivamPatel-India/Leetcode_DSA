@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
+| [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
+| [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -140,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
+| [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
 ## Stack
 |  |
 | ------- |
