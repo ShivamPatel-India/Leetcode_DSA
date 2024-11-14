@@ -138,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
@@ -211,4 +212,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0146-lru-cache) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
