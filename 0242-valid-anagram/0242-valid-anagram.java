@@ -9,9 +9,9 @@ class Solution {
         int[] freq = new int[26];
 
         // counting the freq of every letter in string s
-        for (char c : s.toCharArray()) freq[c-'A'-32]++;
+        for (char c : s.toCharArray()) freq[c-'a']++;
         // decrease the freq of every letter in array for the chars in t
-        for (char c : t.toCharArray()) freq[c-'A'-32]--;
+        for (char c : t.toCharArray()) freq[c-'a']--;
 
         // now if for every character if the frequency is 0 thann we can say that number
         // of appearance of every character in the s and t are same
