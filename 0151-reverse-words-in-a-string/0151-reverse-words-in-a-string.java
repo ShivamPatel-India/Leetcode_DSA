@@ -28,7 +28,7 @@ class Solution {
             left++;
         }
 
-        // If temp is not empty, add it to the result (adding the last word)
+        // If temp is not empty, add it to the result (adding the last word, becausse there is no space after the last word) 
         if (!temp.isEmpty()) {
             if (!ans.isEmpty()) {
                 ans = temp + " " + ans;
