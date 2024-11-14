@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
+| [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [1675-magnetic-force-between-two-balls](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1675-magnetic-force-between-two-balls) |
 ## Dynamic Programming
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0496-next-greater-element-i) |
 ## Bit Manipulation
@@ -143,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0020-valid-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
 | [0812-rotate-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
