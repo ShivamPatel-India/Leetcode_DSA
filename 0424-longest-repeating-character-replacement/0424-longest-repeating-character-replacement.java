@@ -1,18 +1,20 @@
+//TC = O(n) + O(n) * 26
+//SC = O(26) 
 class Solution {
     public int characterReplacement(String s, int k) {
-        int maxlen = 0;
-        int hash[] = new int[26];
-        int changes = 0;
+        int l = 0, r = 0, maxlen = 0, maxFreq = 0;
+        int[] hash = new int[26];
 
-        for(int i = 0; i<s.length(); i++) {
-            Arrays.fill(hash, 0);
-            int maxFreq = 0;
-            for(int j = i; j<s.length(); j++) {
-                maxFreq = Math.max(maxFreq, ++hash[s.charAt(j)-'A']);
-                changes = (j-i+1)-maxFreq;
-                if(changes <= k) maxlen = Math.max(maxlen, j-i+1);
-                else break;
+        while(r < s.length()) {
+            maxFreq = Math.max(maxFreq, ++hash[s.charAt(r)-'A']);
+            while((r-l+1)-(maxFreq) > k) {
+                hash[s.charAt(l) - 'A']--;
+                maxFreq = 0;
+                for(int i = 0; i<hash.length; i++) maxFreq = Math.max(maxFreq, hash[i]);
+                l++;
             }
+            if((r-l+1)-maxFreq <= k) maxlen = Math.max(maxlen, (r-l+1));
+            r++;
         }
         return maxlen;
     }
