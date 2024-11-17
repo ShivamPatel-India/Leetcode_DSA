@@ -4,7 +4,6 @@ class Solution {
         int l = 0, r = 0, maxlen = 0, maxFreq = 0;
         int[] hash = new int[26];
         char[] charArr = s.toCharArray();
-        int n = charArr.length;
 
         for(char c : charArr) {
             maxFreq = Math.max(maxFreq, ++hash[c-'A']);
