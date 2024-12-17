@@ -7,7 +7,7 @@ class Solution {
         Arrays.sort(s);
 
         while(gp < g.length && sp < s.length) {
-            if(g[gp] <= s[sp]){
+            if(g[gp]<=s[sp]) {
                 gp++;
             }
             sp++;
