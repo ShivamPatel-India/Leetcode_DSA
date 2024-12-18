@@ -6,10 +6,8 @@ class Solution {
         Arrays.sort(g);
         Arrays.sort(s);
 
-        while(gp < g.length && sp < s.length) {
-            if(g[gp]<=s[sp]) {
-                gp++;
-            }
+        while(gp<g.length && sp<s.length) {
+            if(g[gp]<=s[sp]) gp++;
             sp++;
         }
         return gp;
