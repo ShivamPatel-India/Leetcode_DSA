@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0735-asteroid-collision) |
+| [0890-lemonade-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
@@ -90,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0890-lemonade-change) |
 | [1829-maximum-units-on-a-truck](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1829-maximum-units-on-a-truck) |
 | [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
 ## Prefix Sum
