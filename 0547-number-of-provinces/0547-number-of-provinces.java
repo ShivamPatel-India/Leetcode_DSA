@@ -1,37 +1,26 @@
 class Solution {
-    public static void dfs(int node, ArrayList<ArrayList<Integer>> adj, int[] vis) {
-        vis[node] = 1;
-        for(Integer it: adj.get(node)) {
-            if(vis[it] == 0) {
-                dfs(it, adj, vis);
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length; // Number of nodes (cities)
+        boolean[] visited = new boolean[n]; // Track visited nodes
+        int provinces = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (!visited[i]) {
+                // Start a new DFS if the node hasn't been visited
+                dfs(isConnected, visited, i);
+                provinces++; // Each DFS call corresponds to a new province
             }
         }
+        return provinces;
     }
 
-    public int findCircleNum(int[][] isConnected) {
-        // first of all lets change adj matrix to adj list
-        int V = isConnected.length;
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<ArrayList<Integer>>();
-        for(int i = 0; i<=V; i++) {
-            adj.add(new ArrayList<Integer>());
-        }
-
-        for(int i = 0; i < V; i++) {
-            for(int j = 0; j < V; j++) {
-                if(isConnected[i][j] == 1 && i != j){
-                    adj.get(i+1).add(j+1);
-                    adj.get(j+1).add(i+1);
-                }
+    private void dfs(int[][] isConnected, boolean[] visited, int currentNode) {
+        visited[currentNode] = true; // Mark the current node as visited
+        for (int neighbor = 0; neighbor < isConnected.length; neighbor++) {
+            // If there's a connection and the neighbor hasn't been visited, explore it
+            if (isConnected[currentNode][neighbor] == 1 && !visited[neighbor]) {
+                dfs(isConnected, visited, neighbor);
             }
         }
-        int vis[] = new int[V+1];
-        int count = 0;
-        for(int i = 1; i <= V; i++) {
-            if(vis[i] == 0) {
-                count++;
-                dfs(i, adj, vis);
-            }
-        }
-        return count;
     }
 }
