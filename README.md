@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0890-lemonade-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
+| [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -158,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0048-rotate-image](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0048-rotate-image) |
 | [0085-maximal-rectangle](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0085-maximal-rectangle) |
+| [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 ## String
 |  |
 | ------- |
@@ -259,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
+| [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
