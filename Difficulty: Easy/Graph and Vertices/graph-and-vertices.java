@@ -31,6 +31,6 @@ class Solution {
     static long count(int n) {
     // code here
     int totalEdges = (n * (n-1)) / 2;
-    return (long) Math.pow(2,totalEdges);
+    return (long) Math.pow(2, totalEdges);
   }
 }
