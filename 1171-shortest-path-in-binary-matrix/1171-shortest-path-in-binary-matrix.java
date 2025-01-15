@@ -11,16 +11,12 @@ class Solution {
     }
     public int shortestPathBinaryMatrix(int[][] grid) {
         int n = grid.length;
-        int m = grid[0].length;
 
-        if (grid[0][0] == 1 || grid[n - 1][m - 1] == 1) {
-            return -1;
-        }
+        if(grid[0][0] == 1 || grid[n-1][n-1] == -1) return -1;
 
-
-        int[][] dist = new int[n][m];
+        int dist[][] = new int[n][n];
         for(int i = 0; i < n; i++) {
-            for(int j = 0; j < m; j++) {
+            for(int j = 0; j < n; j++) {
                 dist[i][j] = (int)1e9;
             }
         }
@@ -31,20 +27,20 @@ class Solution {
 
         while(!q.isEmpty()) {
             Tuple t = q.peek();
-            q.remove();
+            int d = t.d;
             int x = t.x;
             int y = t.y;
-            int d = t.d;
+            q.remove();
 
-            if(x==n-1 && y==m-1) return d;
+            if(x==n-1 && y==n-1) return d;
 
-            for(int delrow = -1; delrow <= 1; delrow++) {
-                for(int delcol = -1; delcol <= 1; delcol++) {
+            for(int delrow=-1; delrow<=1; delrow++) {
+                for(int delcol=-1; delcol<=1; delcol++) {
                     int nx = x + delrow;
                     int ny = y + delcol;
 
-                    if(nx>=0 && nx<n && ny>=0 && ny<m && grid[nx][ny]==0 && d+1<dist[nx][ny]){
-                        dist[nx][ny] = d+1;
+                    if(nx>=0 && ny>=0 && nx<n && ny<n && grid[nx][ny]==0 && d+1<dist[nx][ny]) {
+                        dist[nx][ny]=d+1;
                         q.add(new Tuple(dist[nx][ny],nx,ny));
                     }
                 }
