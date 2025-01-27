@@ -36,42 +36,32 @@ System.out.println("~");
 // User function Template for Java
 
 class Solution {
-    class Pair {
-        int number;
-        int step;
-        Pair(int n, int s) {
-            this.number = n;
-            this.step = s;
-        }
-    }
     int minimumMultiplications(int[] arr, int start, int end) {
         if(start == end) return 0;
         
+        int n = arr.length;
         int[] dist = new int[100000];
         for(int i = 0; i < 100000; i++) {
             dist[i] = (int)1e9;
         }
         dist[start] = 0;
         
-        Queue<Pair> q = new LinkedList<>();
-        q.add(new Pair(start, 0));
-        
+        Queue<int[]> q = new LinkedList<>();
+        q.add(new int[]{start,0});
         int mod = 100000;
-        int n = arr.length;
         
         while(!q.isEmpty()) {
-            int num = q.peek().number;
-            int step = q.peek().step;
+            int num = q.peek()[0];
+            int steps = q.peek()[1];
             q.remove();
             
             for(int i = 0; i < n; i++) {
-                int newNum = (num * arr[i]) % mod;
-                int newStep = step + 1;
+                int newNum = (arr[i] * num) % mod;
                 
-                if(newStep < dist[newNum]) {
-                    dist[newNum] = newStep;
-                    if(newNum == end) return newStep;
-                    q.add(new Pair(newNum, newStep));
+                if(steps + 1 < dist[newNum]) {
+                    dist[newNum] = steps + 1;
+                    if(newNum == end) return steps + 1;
+                    q.add(new int[]{newNum, steps + 1});
                 }
             }
         }
