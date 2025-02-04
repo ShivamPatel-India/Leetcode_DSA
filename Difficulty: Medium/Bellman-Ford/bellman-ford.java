@@ -70,18 +70,16 @@ class Solution {
                 if(dist[u] != 1e8 && dist[u] + wt < dist[v]) {
                     dist[v] = dist[u] + wt;
                 }
-                
             }
         }
         
-        // Nth relaxation to detect negative cycles
-        for(int j = 0 ; j < edges.length; j++) {
-                int u = edges[j][0];
-                int v = edges[j][1];
-                int wt = edges[j][2];
-                
-                if(dist[u] != 1e8 && dist[u] + wt < dist[v]) {
-                    return new int[]{-1};
+        for(int j = 0; j < edges.length; j++) {
+            int u = edges[j][0];
+            int v = edges[j][1];
+            int wt = edges[j][2];
+            
+            if(dist[u] != 1e8 && dist[u] + wt < dist[v]) {
+                return new int[]{-1};
             }
         }
         return dist;
