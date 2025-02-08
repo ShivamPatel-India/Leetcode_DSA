@@ -63,11 +63,12 @@ class Solution {
             if(vis[node] == 1) continue;
             vis[node] = 1;
             sum += dist;
+            
             for(int[] it: adj.get(node)) {
                 int adjNode = it[0];
-                int adjDist = it[1];
+                int adjWt = it[1];
                 if(vis[adjNode] == 0) {
-                    pq.add(new Pair(adjNode, adjDist));
+                    pq.add(new Pair(adjNode, adjWt));
                 }
             }
         }
