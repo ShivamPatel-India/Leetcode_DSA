@@ -1,6 +1,7 @@
 class DisjointSet {
     List<Integer> rank = new ArrayList<>();
-    List<Integer> parent = new ArrayList<>();
+    List<Integer> parent  = new ArrayList<>();
+
     DisjointSet(int n) {
         for(int i = 0; i <= n; i++) {
             rank.add(0);
@@ -28,7 +29,7 @@ class DisjointSet {
         else {
             parent.set(ulp_v, ulp_u);
             int rankU = rank.get(ulp_u);
-            rank.set(ulp_u, rankU+1);
+            rank.set(ulp_u, rankU + 1);
         }
     }
 }
@@ -44,30 +45,30 @@ class Solution {
                 if(mapMailNode.containsKey(mail) == false) {
                     mapMailNode.put(mail, i);
                 } else {
-                    ds.unionByRank(i, mapMailNode.get(mail));
+                    ds.unionByRank(mapMailNode.get(mail), i);
                 }
             }
-        }
+        } 
 
         List<List<String>> mergedMail = new ArrayList<>();
-        for(int i = 0; i < n; i++) mergedMail.add(new ArrayList<>());
-        for(Map.Entry<String,Integer> it: mapMailNode.entrySet()) {
+        for(int i = 0; i < n; i++) {
+            mergedMail.add(new ArrayList<>());
+        }      
+        for(Map.Entry<String, Integer> it : mapMailNode.entrySet()) {
             String mail = it.getKey();
             int node = ds.findUPar(it.getValue());
             mergedMail.get(node).add(mail);
         }
 
         List<List<String>> ans = new ArrayList<>();
-
         for(int i = 0; i < n; i++) {
             if(mergedMail.get(i).size() == 0) continue;
             Collections.sort(mergedMail.get(i));
             List<String> temp = new ArrayList<>();
             temp.add(accounts.get(i).get(0));
-            for(String it : mergedMail.get(i)) temp.add(it);
+            for(String mail: mergedMail.get(i)) temp.add(mail);
             ans.add(temp);
         }
-
         return ans;
     }
 }
