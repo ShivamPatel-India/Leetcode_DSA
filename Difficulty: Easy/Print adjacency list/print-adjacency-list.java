@@ -62,16 +62,15 @@ class GFG {
 class Solution {
     public List<List<Integer>> printGraph(int V, int edges[][]) {
         List<List<Integer>> graph = new ArrayList<>();
-        
-        for(int i = 0; i < V; i++) {
+        for(int i = 0; i< V; i++) {
             graph.add(new ArrayList<>());
         }
         
-        for(int[] edge: edges) {
-            int u = edge[0];
-            int v = edge[1];
-            graph.get(u).add(v);
+        for(int i = 0; i < edges.length; i++) {
+            int u = edges[i][0];
+            int v = edges[i][1];
             graph.get(v).add(u);
+            graph.get(u).add(v);
         }
         return graph;
     }
