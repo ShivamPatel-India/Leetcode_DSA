@@ -47,28 +47,22 @@ class GFG {
 class Solution {
     // Function to return Breadth First Traversal of given graph.
     public ArrayList<Integer> bfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
-        // array to keep the record of visited nodes
-        boolean[] visited = new boolean[V];
-        
-        // to store the BFS result;
         ArrayList<Integer> bfs = new ArrayList<>();
-        
-        // queue to traverse the graph in level-wise manner
+        boolean[] vis = new boolean[V];
         Queue<Integer> q = new LinkedList<>();
         
-        // adding the startin node in the queue and markig it as visited
         q.add(0);
-        visited[0] = true;
+        vis[0] = true;
         
         while(!q.isEmpty()) {
-            Integer node = q.poll();
+            int node = q.poll();
             bfs.add(node);
+            vis[node] = true;
             
-            // take all the non-visited neighbors of the current node mark them as visited and put them in queue
-            for(Integer it: adj.get(node)) {
-                if(visited[it] != true) {
-                    visited[it] = true;
-                    q.add(it);
+            for(int n : adj.get(node)) {
+                if(!vis[n]){
+                    vis[n] = true;
+                    q.add(n);
                 }
             }
         }
