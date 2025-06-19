@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0039-combination-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0053-maximum-subarray) |
@@ -374,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0078-subsets) |
 ## Merge Sort
 |  |
