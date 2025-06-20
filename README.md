@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
+| [0216-combination-sum-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0283-move-zeroes) |
@@ -384,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0090-subsets-ii) |
 | [0093-restore-ip-addresses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0093-restore-ip-addresses) |
+| [0216-combination-sum-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0216-combination-sum-iii) |
 ## Merge Sort
 |  |
 | ------- |
