@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0131-palindrome-partitioning) |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0007-reverse-integer](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0048-rotate-image) |
+| [0070-climbing-stairs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -412,4 +414,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
