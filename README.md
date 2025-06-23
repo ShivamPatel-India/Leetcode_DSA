@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1675-magnetic-force-between-two-balls](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1675-magnetic-force-between-two-balls) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1829-maximum-units-on-a-truck](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1829-maximum-units-on-a-truck) |
+| [2058-concatenation-of-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2058-concatenation-of-array) |
 | [2227-sum-of-subarray-ranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2227-sum-of-subarray-ranges) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Binary Search
@@ -188,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0735-asteroid-collision) |
+| [2058-concatenation-of-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2058-concatenation-of-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Matrix
 |  |
