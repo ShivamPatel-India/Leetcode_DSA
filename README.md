@@ -166,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
+| [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0496-next-greater-element-i) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
+| [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [2427-first-letter-to-appear-twice](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2427-first-letter-to-appear-twice) |
 ## Simulation
 |  |
@@ -225,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
+| [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
@@ -264,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0225-implement-stack-using-queues](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
+| [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 ## Monotonic Stack
 |  |
 | ------- |
