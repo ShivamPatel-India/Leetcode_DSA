@@ -27,6 +27,7 @@ class Solution {
         }
         return dp[i][j];
     }
+    
     public int tabulation(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
@@ -48,7 +49,31 @@ class Solution {
             }
         }
         return dp[m-1][n-1];
+    }
 
+    public int spaceOptimized(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+
+        int[] prev = new int[n];
+
+        for(int i = 0; i < m; i++) {
+            int[] cur = new int[n];
+            for(int j = 0; j < n; j++) {
+                if(i == 0 && j == 0) cur[j] = grid[i][j];
+                else {
+                    int up = grid[i][j];
+                    if(i > 0) up += prev[j];
+                    else up = Integer.MAX_VALUE;
+                    int left = grid[i][j];
+                    if(j > 0) left += cur[j-1];
+                    else left = Integer.MAX_VALUE;
+                    cur[j] = Math.min(up, left);
+                }
+            }
+            prev = cur;
+        }
+        return prev[n-1];
     }
     public int minPathSum(int[][] grid) {
         // int[][] dp = new int[grid.length][grid[0].length];
@@ -56,6 +81,7 @@ class Solution {
         //     Arrays.fill(dp[i], -1);
         // }
         // return memoization(grid, dp, grid.length-1, grid[0].length-1);
-        return tabulation(grid);
+        // return tabulation(grid);
+        return spaceOptimized(grid);
     }
 }
