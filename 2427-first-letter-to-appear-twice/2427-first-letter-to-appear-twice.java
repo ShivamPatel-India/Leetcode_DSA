@@ -5,12 +5,12 @@ class Solution {
         int[] seen = new int[26];
         Arrays.fill(seen, -1);
 
-        int n = s.length();
-        for(int i = 0 ; i < n; i++) {
-            char c = s.charAt(i);
-            if(seen[(int)c-97] != -1) return c;
-            else seen[(int)c-97] = 1;
+        char[] chars = s.toCharArray();
+        for(int i = 0; i < chars.length; i++) {
+            if(seen[(int)(chars[i])-97] != -1) return chars[i];
+            else seen[(int)(chars[i])-97] = 1;
         }
-        return 'a';
+        return 's'; // dummy return 
+
     }
 }
