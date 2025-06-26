@@ -37,10 +37,12 @@ class Solution {
             for(int j = 0; j < n; j++) {
                 if(i == 0 && j == 0) dp[i][j] = grid[i][j];
                 else {
-                    int up = Integer.MAX_VALUE;
-                    int left = Integer.MAX_VALUE;
-                    if(i > 0) up = grid[i][j] + dp[i-1][j];
-                    if(j > 0) left = grid[i][j] + dp[i][j-1];
+                    int up = grid[i][j];
+                    if(i > 0) up += dp[i-1][j];
+                    else up = Integer.MAX_VALUE;
+                    int left = grid[i][j];
+                    if(j > 0) left += dp[i][j-1];
+                    else left = Integer.MAX_VALUE;
                     dp[i][j] = Math.min(up, left);
                 }
             }
