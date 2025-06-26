@@ -76,12 +76,12 @@ class Solution {
         return prev[n-1];
     }
     public int minPathSum(int[][] grid) {
-        // int[][] dp = new int[grid.length][grid[0].length];
-        // for(int i = 0; i < grid.length; i++) {
-        //     Arrays.fill(dp[i], -1);
-        // }
-        // return memoization(grid, dp, grid.length-1, grid[0].length-1);
+        int[][] dp = new int[grid.length][grid[0].length];
+        for(int i = 0; i < grid.length; i++) {
+            Arrays.fill(dp[i], -1);
+        }
+        return memoization(grid, dp, grid.length-1, grid[0].length-1);
         // return tabulation(grid);
-        return spaceOptimized(grid);
+        // return spaceOptimized(grid);
     }
 }
