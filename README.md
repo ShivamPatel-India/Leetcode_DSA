@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0907-koko-eating-bananas](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
+| [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
+| [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1675-magnetic-force-between-two-balls](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1675-magnetic-force-between-two-balls) |
 | [1829-maximum-units-on-a-truck](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1829-maximum-units-on-a-truck) |
 ## Dynamic Programming
@@ -154,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
+| [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Math
 |  |
