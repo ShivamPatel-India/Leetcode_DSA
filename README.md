@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0090-subsets-ii) |
+| [0120-triangle](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0136-single-number) |
@@ -117,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0085-maximal-rectangle) |
+| [0120-triangle](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0198-house-robber) |
