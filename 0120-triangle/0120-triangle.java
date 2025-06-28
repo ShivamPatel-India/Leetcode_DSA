@@ -13,6 +13,20 @@ class Solution {
         int diag = t.get(i).get(j) + memoized(t, n, i+1, j+1, dp);
         return dp[i][j] = Math.min(down, diag);
     }
+    public int tabulation(List<List<Integer>> t, int n) {
+        int[][] dp = new int[n][n];
+        for(int j = 0; j < n; j++) {
+            dp[n-1][j] = t.get(n-1).get(j);
+        }
+        for(int i = n-2; i >=0; i--) {
+            for(int j = i; j >= 0; j--) {
+                int down = t.get(i).get(j) + dp[i+1][j];
+                int diag = t.get(i).get(j) + dp[i+1][j+1];
+                dp[i][j] = Math.min(down, diag);
+            }
+        }
+        return dp[0][0];
+    }
     public int minimumTotal(List<List<Integer>> triangle) {
         // number of rows is equal to number of columns.
         int n = triangle.size();
@@ -21,6 +35,7 @@ class Solution {
             Arrays.fill(dp[i],-1);
         }
         // return recursive(triangle, n, 0, 0);
-        return memoized(triangle, n, 0, 0, dp);
+        // return memoized(triangle, n, 0, 0, dp);
+        return tabulation(triangle, n);
     }
 }
