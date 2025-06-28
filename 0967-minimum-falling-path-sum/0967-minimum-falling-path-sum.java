@@ -40,8 +40,38 @@ class Solution {
         }
         return mini;
     }
+    public int spaceOptimized(int[][] a, int n) {
+        int[] prev = new int[n];
+        for(int j = 0; j < n; j++) {
+            prev[j] = a[0][j];
+        }
+        for(int i = 1; i < n; i++) {
+            int[] cur = new int[n];
+            for(int j = 0; j < n; j++) {
+                int straight = a[i][j] + prev[j];
+
+                int left_diag = a[i][j];
+                if(j-1>=0) left_diag += prev[j-1];
+                else left_diag = INF;
+
+                int right_diag = a[i][j];
+                if(j+1<n) right_diag += prev[j+1];
+                else right_diag = INF;
+
+                cur[j] = Math.min(straight, Math.min(left_diag, right_diag));
+            }
+            prev = cur;
+        }
+        int mini = INF;
+        for(int j = 0 ; j < n; j++) {
+            mini = Math.min(mini, prev[j]);
+        }
+        return mini;
+    }
     public int minFallingPathSum(int[][] matrix) {
         int n = matrix.length;
+        
+        /* Memoized function call */
         // int[][] dp = new int[n][n];
         // for(int i = 0; i < n; i++) {
         //     Arrays.fill(dp[i], -1);
@@ -51,6 +81,9 @@ class Solution {
         //     mini = Math.min(mini, memoized(matrix, dp, n-1, j));
         // }
         // return mini;
-        return tabulation(matrix, n);
+        
+        // return tabulation(matrix, n);
+
+        return spaceOptimized(matrix, n);
     }
 }
