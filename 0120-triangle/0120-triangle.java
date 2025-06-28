@@ -27,6 +27,20 @@ class Solution {
         }
         return dp[0][0];
     }
+    public int spaceOptimized(List<List<Integer>> t, int n) {
+        int[] front = new int[n];
+        for(int j = 0; j < n; j++) front[j] = t.get(n-1).get(j);
+        for(int i = n-2; i >= 0; i--) {
+            int[] cur = new int[n];
+            for(int j = i; j >= 0; j--) {
+                int down = t.get(i).get(j) + front[j];
+                int diag = t.get(i).get(j) + front[j+1];
+                cur[j] = Math.min(down, diag);
+            }
+            front = cur;
+        }
+        return front[0];
+    }
     public int minimumTotal(List<List<Integer>> triangle) {
         // number of rows is equal to number of columns.
         int n = triangle.size();
@@ -36,6 +50,7 @@ class Solution {
         }
         // return recursive(triangle, n, 0, 0);
         // return memoized(triangle, n, 0, 0, dp);
-        return tabulation(triangle, n);
+        // return tabulation(triangle, n);
+        return spaceOptimized(triangle, n);
     }
 }
