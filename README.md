@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0463-island-perimeter) |
 | [0485-max-consecutive-ones](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0485-max-consecutive-ones) |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0213-house-robber-ii) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
