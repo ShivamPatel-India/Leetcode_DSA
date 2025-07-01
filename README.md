@@ -249,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0020-valid-parentheses) |
+| [0058-length-of-last-word](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0058-length-of-last-word) |
 | [0079-word-search](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0093-restore-ip-addresses) |
 | [0127-word-ladder](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0127-word-ladder) |
