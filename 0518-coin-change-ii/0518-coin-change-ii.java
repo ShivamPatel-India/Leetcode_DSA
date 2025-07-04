@@ -31,10 +31,30 @@ class Solution {
         }
         return dp[n-1][amount];
     }
+    public int spaceOptimized(int[] coins, int amount) {
+        int n = coins.length;
+        int[] prev = new int[amount+1];
+        for(int t = 0; t <= amount; t++) {
+            prev[t] = (t % coins[0] == 0) ? 1 : 0;
+        }
+
+        for(int i = 1; i < n; i++) {
+            int[] cur = new int[amount+1];
+            for(int t = 0; t <= amount; t++) {
+                int notTake = prev[t];
+                int take = 0;
+                if(coins[i] <= t) take = cur[t-coins[i]];
+                cur[t] = take + notTake;
+            }
+            prev = cur;
+        }
+        return prev[amount];
+    }
     public int change(int amount, int[] coins) {
         // int[][] dp = new int[coins.length][amount+1];
         // for(int[] row: dp) Arrays.fill(row, -1);
         // return memoized(amount, coins, dp, coins.length-1);
-        return tabulation(coins, amount);
+        // return tabulation(coins, amount);
+        return spaceOptimized(coins, amount);
     }
 }
