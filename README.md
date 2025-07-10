@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0516-longest-palindromic-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0967-minimum-falling-path-sum) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0516-longest-palindromic-subsequence) |
+| [0583-delete-operation-for-two-strings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
