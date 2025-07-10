@@ -1,5 +1,5 @@
 class Solution {
-    public int lcs(String s1, String s2) {
+    public int minDistance(String s1, String s2) {
         int n = s1.length();
         int m = s2.length();
 
@@ -14,12 +14,6 @@ class Solution {
             }
             prev = cur;
         }
-        return prev[m];
-    }
-    public int minDistance(String word1, String word2) {
-        int ans = lcs(word1, word2);
-        int n = word1.length();
-        int m = word2.length();
-        return n+m-(2*ans);
+        return n+m-(2*prev[m]);
     }
 }
