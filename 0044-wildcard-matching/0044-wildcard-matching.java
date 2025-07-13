@@ -19,13 +19,34 @@ class Solution {
         else 
             return 0;
     }
-
-    public boolean isMatch(String s, String p) {
-        // p is pattern and s is string
+    public boolean f_tabulation(String p, String s) {
         int n = p.length();
         int m = s.length();
+
         int[][] dp = new int[n+1][m+1];
-        for(int[] row: dp) Arrays.fill(row, -1);
-        return f(p, s, n, m, dp) == 1 ? true : false;
+        dp[0][0] = 1;
+
+        for(int j = 1; j <= m; j++) dp[0][j] = 0;
+        for(int i = 1; i <= n; i++) dp[i][0] = isAllStars(p, i);
+
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+                if(p.charAt(i-1) == s.charAt(j-1) || p.charAt(i-1) == '?') dp[i][j] = dp[i-1][j-1];
+                else if(p.charAt(i-1) == '*') dp[i][j] = (dp[i-1][j] == 1 || dp[i][j-1] == 1) ? 1 : 0;
+                else dp[i][j] = 0;
+            }
+        }
+        return dp[n][m] == 1 ? true : false;
+    }
+    public boolean isMatch(String s, String p) {
+        // p is pattern and s is string
+        
+        // int n = p.length();
+        // int m = s.length();
+        // int[][] dp = new int[n+1][m+1];
+        // for(int[] row: dp) Arrays.fill(row, -1);
+        // return f(p, s, n, m, dp) == 1 ? true : false;
+
+        return f_tabulation(p, s);
     }
 }
