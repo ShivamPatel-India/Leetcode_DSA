@@ -38,6 +38,29 @@ class Solution {
         }
         return dp[n][m] == 1 ? true : false;
     }
+    public int f_spaceOptimization(String p, String s) {
+        int n = p.length();
+        int m = s.length();
+
+        int[] prev = new int[m+1];
+        int[] cur = new int[m+1];
+
+        prev[0] = 1;
+        
+        for(int i = 1; i <= n; i++) {
+            cur[0] = isAllStars(p, i);
+            for(int j = 1; j <= m; j++) {
+                if(p.charAt(i-1) == s.charAt(j-1) || p.charAt(i-1) == '?')
+                    cur[j] = prev[j-1];
+                else if(p.charAt(i-1) == '*') 
+                    cur[j] = (cur[j-1] == 1 || prev[j] == 1) ? 1 : 0;
+                else 
+                    cur[j] = 0;
+            }
+            prev = cur.clone();
+        }
+        return prev[m];
+    }
     public boolean isMatch(String s, String p) {
         // p is pattern and s is string
         
@@ -47,6 +70,8 @@ class Solution {
         // for(int[] row: dp) Arrays.fill(row, -1);
         // return f(p, s, n, m, dp) == 1 ? true : false;
 
-        return f_tabulation(p, s);
+        // return f_tabulation(p, s);
+
+        return f_spaceOptimization(p, s) == 1 ? true : false;
     }
 }
