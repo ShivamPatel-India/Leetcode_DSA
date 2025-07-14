@@ -62,7 +62,7 @@ class Solution {
         int aheadBuy, aheadNotBuy, curBuy, curNotBuy;
         // base cases:
         aheadBuy = aheadNotBuy = 0;
-        
+
         int profit = 0;
         for(int i = n-1; i >=0; i--) {
             curBuy = Math.max(-p[i] + aheadNotBuy, aheadBuy);
@@ -84,6 +84,16 @@ class Solution {
 
         // return f_spaceOptimize(prices);
 
-        return ultraSpaceOptimize(prices);
+        // return ultraSpaceOptimize(prices);
+
+        int maxProfit = 0;
+        
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] > prices[i - 1]) {
+                maxProfit += prices[i] - prices[i - 1];
+            }
+        }
+        
+        return maxProfit;
     }
 }
