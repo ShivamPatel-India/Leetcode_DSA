@@ -32,12 +32,37 @@ class Solution {
         }
         return dp[0][1];
     }
+    public int f_spaceOptimize(int[] p) {
+        int n = p.length;
+
+        int[] ahead = new int[2];
+
+        // no stock to buy or sell so profit 0;
+        ahead[0] = ahead[1] = 0;
+
+        for(int i = n-1; i >= 0; i--) {
+            int[] cur = new int[2];
+            for(int buy = 1; buy >=0; buy--) {
+                if(buy == 0) {
+                    // we can not buy means we can sell
+                    cur[buy] = Math.max(p[i] + ahead[1] , 0 + ahead[0]);
+                } else if (buy == 1) {
+                    // we can buy
+                    cur[buy] = Math.max(-p[i] + ahead[0], 0 + ahead[1]);
+                }
+            }
+            ahead = cur;
+        }
+        return ahead[1];
+    }
     public int maxProfit(int[] prices) {
         // int n = prices.length;
         // int[][] dp = new int[n][2];
         // for(int[] row: dp) Arrays.fill(row, -1);
         // return f(prices, 0, 1, dp, n);
 
-        return f_tabulation(prices);
+        // return f_tabulation(prices);
+
+        return f_spaceOptimize(prices);
     }
 }
