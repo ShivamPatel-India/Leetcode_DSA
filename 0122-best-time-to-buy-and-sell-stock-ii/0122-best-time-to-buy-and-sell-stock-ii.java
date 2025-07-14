@@ -56,17 +56,18 @@ class Solution {
         return ahead[1];
     }
     public int ultraSpaceOptimize(int[] p) {
+        // variable solution
         int n = p.length;
 
         int aheadBuy, aheadNotBuy, curBuy, curNotBuy;
-
         // base cases:
         aheadBuy = aheadNotBuy = 0;
+        
         int profit = 0;
         for(int i = n-1; i >=0; i--) {
-            curBuy = Math.max(-p[i] + aheadNotBuy, 0 + aheadBuy);
+            curBuy = Math.max(-p[i] + aheadNotBuy, aheadBuy);
 
-            curNotBuy = Math.max(p[i] + aheadBuy, 0 + aheadNotBuy);
+            curNotBuy = Math.max(p[i] + aheadBuy, aheadNotBuy);
 
             aheadBuy = curBuy;
             aheadNotBuy = curNotBuy;
