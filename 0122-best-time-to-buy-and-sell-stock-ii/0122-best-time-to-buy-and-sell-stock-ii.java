@@ -55,6 +55,24 @@ class Solution {
         }
         return ahead[1];
     }
+    public int ultraSpaceOptimize(int[] p) {
+        int n = p.length;
+
+        int aheadBuy, aheadNotBuy, curBuy, curNotBuy;
+
+        // base cases:
+        aheadBuy = aheadNotBuy = 0;
+        int profit = 0;
+        for(int i = n-1; i >=0; i--) {
+            curBuy = Math.max(-p[i] + aheadNotBuy, 0 + aheadBuy);
+
+            curNotBuy = Math.max(p[i] + aheadBuy, 0 + aheadNotBuy);
+
+            aheadBuy = curBuy;
+            aheadNotBuy = curNotBuy;
+        }
+        return aheadBuy;
+    }
     public int maxProfit(int[] prices) {
         // int n = prices.length;
         // int[][] dp = new int[n][2];
@@ -63,6 +81,8 @@ class Solution {
 
         // return f_tabulation(prices);
 
-        return f_spaceOptimize(prices);
+        // return f_spaceOptimize(prices);
+
+        return ultraSpaceOptimize(prices);
     }
 }
