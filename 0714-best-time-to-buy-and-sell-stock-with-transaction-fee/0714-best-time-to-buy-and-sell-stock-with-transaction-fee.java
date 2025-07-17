@@ -43,6 +43,20 @@ class Solution {
         }
         return ahead[1];
     }
+    public int constantSpace(int[] p, int fee) {
+        int n = p.length;
+        int aheadNotBuy;
+        int aheadBuy;
+
+        aheadNotBuy = aheadBuy = 0;
+        for(int  i = n-1; i >=0; i--) {
+            int curBuy = Math.max(-p[i] + aheadNotBuy, 0 + aheadBuy);
+            int curNotBuy = Math.max(p[i] - fee + aheadBuy, 0 + aheadNotBuy);
+            aheadBuy = curBuy;
+            aheadNotBuy = curNotBuy;
+        }
+        return aheadBuy;
+    }
     public int maxProfit(int[] prices, int fee) {
         // int n = prices.length;
         // int[][] dp = new int[n][2];
@@ -51,6 +65,8 @@ class Solution {
 
         // return tabulation(prices, fee);
 
-        return spaceOptimizeV1(prices, fee);
+        // return spaceOptimizeV1(prices, fee);
+        
+        return constantSpace(prices, fee);
     }
 }
