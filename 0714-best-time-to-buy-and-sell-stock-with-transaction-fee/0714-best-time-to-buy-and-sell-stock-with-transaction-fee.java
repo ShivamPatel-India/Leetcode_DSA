@@ -26,12 +26,31 @@ class Solution {
         }
         return dp[0][1];
     }
+    public int spaceOptimizeV1(int[] p, int fee) {
+        int n = p.length;
+        int[] ahead = new int[2];
+
+        for(int i = n-1; i >= 0; i--) {
+            int[] cur = new int[2];
+            for(int buy = 0; buy <= 1; buy++) {
+                if(buy == 0) { // we can sell the stock
+                    cur[buy] = Math.max(p[i] - fee + ahead[1], 0 + ahead[0]);
+                } else if(buy == 1) { // we can buy
+                    cur[buy] = Math.max(0 + ahead[1] , -p[i] + ahead[0]);
+                } 
+            }
+            ahead = cur;
+        }
+        return ahead[1];
+    }
     public int maxProfit(int[] prices, int fee) {
         // int n = prices.length;
         // int[][] dp = new int[n][2];
         // for(int[] row: dp) Arrays.fill(row, -1);
         // return f(prices, n, fee, dp, 0, 1);
 
-        return tabulation(prices, fee);
+        // return tabulation(prices, fee);
+
+        return spaceOptimizeV1(prices, fee);
     }
 }
