@@ -43,24 +43,24 @@ class Solution {
         return dp[0][0];
     }
 
-    public int spaceOptimization(int[] nums) {
+    public int spaceOptimized(int[] nums) {
         int n = nums.length;
 
         int next[] = new int[n+1];
-        
+        int cur[] = new int[n+1];
+
         for(int i = n-1; i >= 0; i--) {
-            int cur[] = new int[n+1];
             for(int prev = i-1; prev >= -1; prev--) {
                 int notTake = 0 + next[prev+1];
                 int take = 0;
-                if(prev == -1 || nums[i] > nums[prev+1]) {
+                if(prev == -1 || nums[i] > nums[prev]) {
                     take = 1 + next[i+1];
                 }
                 cur[prev+1] = Math.max(take, notTake);
             }
-            next = cur;
+            next = cur.clone();
         }
-        return next[0];
+        return cur[0];
     }
     public int lengthOfLIS(int[] nums) {
         // return f(nums, 0, -1);
@@ -71,6 +71,8 @@ class Solution {
         // for(int[] row: dp) Arrays.fill(row, -1);
         // return memoized(nums, n, 0, -1, dp);
 
-        return tabulation(nums);
+        // return tabulation(nums);
+
+        return spaceOptimized(nums);
     }
 }
