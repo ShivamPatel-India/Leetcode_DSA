@@ -62,6 +62,23 @@ class Solution {
         }
         return cur[0];
     }
+
+    public int mostOptimized(int[] nums) {
+        // this is the most optimized version to find LIS
+        int n = nums.length;
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1);
+        int maxi = 1;
+        for(int i = 0; i < n; i++) {
+            for(int prev = 0; prev < i; prev++) {
+                if(nums[prev] < nums[i]) {
+                    dp[i] = Math.max(1 + dp[prev], dp[i]);
+                }
+            }
+            maxi = Math.max(maxi, dp[i]);
+        }
+        return maxi;
+    }
     public int lengthOfLIS(int[] nums) {
         // return f(nums, 0, -1);
         
@@ -73,6 +90,8 @@ class Solution {
 
         // return tabulation(nums);
 
-        return spaceOptimized(nums);
+        // return spaceOptimized(nums);
+
+        return mostOptimized(nums);
     }
 }
