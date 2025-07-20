@@ -1,4 +1,21 @@
 class Solution {
+    public int lengthOfLIS(int[] nums) {
+        /** This method contains function calls to other methods, each representing different way to solve LIS */
+        
+        // return f(nums, 0, -1);
+        
+        // int n = nums.length;
+        // // dp array for memoization with co-ordinate shift bcz arrays dont support -1 index
+        // int[][] dp = new int[n][n+1];
+        // for(int[] row: dp) Arrays.fill(row, -1);
+        // return memoized(nums, n, 0, -1, dp);
+
+        // return tabulation(nums);
+
+        // return spaceOptimized(nums);
+
+        return mostOptimized(nums);
+    }
     public int f(int[] nums, int i, int pi) {
         // pure recursive solution gives TLE
 
@@ -78,20 +95,5 @@ class Solution {
             maxi = Math.max(maxi, dp[i]);
         }
         return maxi;
-    }
-    public int lengthOfLIS(int[] nums) {
-        // return f(nums, 0, -1);
-        
-        // int n = nums.length;
-        // // dp array for memoization with co-ordinate shift bcz arrays dont support -1 index
-        // int[][] dp = new int[n][n+1];
-        // for(int[] row: dp) Arrays.fill(row, -1);
-        // return memoized(nums, n, 0, -1, dp);
-
-        // return tabulation(nums);
-
-        // return spaceOptimized(nums);
-
-        return mostOptimized(nums);
     }
 }
