@@ -1,7 +1,7 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
         /** This method contains function calls to other methods, each representing different way to solve LIS */
-        
+
         // return f(nums, 0, -1);
         
         // int n = nums.length;
@@ -92,7 +92,9 @@ class Solution {
                     dp[i] = Math.max(1 + dp[prev], dp[i]);
                 }
             }
-            maxi = Math.max(maxi, dp[i]);
+        }
+        for(int lis: dp) {
+            maxi = Math.max(lis, maxi);
         }
         return maxi;
     }
