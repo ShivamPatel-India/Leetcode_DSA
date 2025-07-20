@@ -1,16 +1,16 @@
-import java.util.*;
 class Solution {
-    public List<Integer> printLIS(int[] nums) {
+    public List<Integer> printLDS(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length;
+
         int[] dp = new int[n];
         Arrays.fill(dp, 1);
         int[] hash = new int[n];
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 1; i < n; i++) {
             hash[i] = i;
             for(int prev = 0; prev < i; prev++) {
-                if(nums[i] % nums[prev] == 0 && 1 + dp[prev] > dp[i]) {
+                if(nums[i] % nums[prev] ==0  && 1 + dp[prev] > dp[i]) {
                     dp[i] = 1 + dp[prev];
                     hash[i] = prev;
                 }
@@ -19,7 +19,7 @@ class Solution {
         int lastIndex = -1;
         int ans = -1;
         for(int i = 0; i < n; i++) {
-            if(dp[i] > ans) {
+            if(ans < dp[i]) {
                 ans = dp[i];
                 lastIndex = i;
             }
@@ -34,7 +34,8 @@ class Solution {
         Collections.sort(temp);
         return temp;
     }
+
     public List<Integer> largestDivisibleSubset(int[] nums) {
-        return printLIS(nums);
+        return printLDS(nums);
     }
 }
