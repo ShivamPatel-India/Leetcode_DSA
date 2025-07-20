@@ -15,10 +15,35 @@ class Solution {
 
         // return spaceOptimized(nums);
 
-        return mostOptimized(nums);
+        // return mostOptimized(nums);
+
+        return binarySearchMethod(nums);
 
         // printLIS(nums);
         // return -1;
+    }
+    public int binarySearchMethod(int[] nums) {
+        int n = nums.length;
+        List<Integer> temp = new ArrayList<Integer>();
+        temp.add(nums[0]);
+
+        int len = 1;
+
+        for(int i = 1; i < n; i++) {
+            if(nums[i] > temp.get(temp.size() -1)) {
+                temp.add(nums[i]);
+                len++;
+            }
+            else {
+                // Replacement Step
+                int ind = Collections.binarySearch(temp, nums[i]);
+                if(ind < 0) {
+                    ind = -ind - 1;
+                }
+                temp.set(ind, nums[i]);
+            }
+        }
+        return len;
     }
     public int f(int[] nums, int i, int pi) {
         // pure recursive solution gives TLE
