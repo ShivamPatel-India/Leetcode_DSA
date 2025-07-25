@@ -301,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
@@ -341,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0937-online-stock-span](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0937-online-stock-span) |
 ## Queue
 |  |
@@ -407,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0210-course-schedule-ii) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0463-island-perimeter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0463-island-perimeter) |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
@@ -427,6 +430,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0210-course-schedule-ii) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0322-coin-change) |
 | [0463-island-perimeter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
@@ -532,4 +536,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Tree
+|  |
+| ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 <!---LeetCode Topics End-->
