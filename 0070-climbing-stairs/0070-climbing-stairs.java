@@ -23,13 +23,13 @@ class Solution {
         return dp[n];
     }
     public int spaceOptimized(int n) {
-        int prev = 1; // 1 way to get to the 0th stair
-        int prev2 = 1; // 1 way to get to the 1st stair
+        int prev = 1;
+        int prev2 = 1;
 
-        for(int i = 2; i <= n ; i++) {
-            int curi = prev + prev2;
+        for(int i = 2; i <= n; i++) {
+            int cur = prev + prev2;
             prev2 = prev;
-            prev = curi;
+            prev = cur;
         }
         return prev;
     }
