@@ -10,32 +10,26 @@ class Solution {
         }
         return true;
     }
-    // recursive helper with memoization to find min cuts from index 'start'
-    private int minCutsHelper(String s, int start, int[] dp) {
+    // tabulation approach to find min cuts
+    private int minCutsHelper(String s) {
         int n = s.length();
+        int[] dp = new int[n+1];
+        dp[n] = -1;
+        // fill dp array from end to start
+        for(int i = n-1; i >= 0; i--) {
+            int minCuts = Integer.MAX_VALUE;
 
-        // return 0 if reached to the end or string is already palindrome
-        if(start == n || isPalindrome(s, start, n-1)) return 0;
-
-        // return memoized value if already computed
-        if(dp[start] != -1) return dp[start];
-
-        int minCuts = Integer.MAX_VALUE;
-
-        // try all possible partitions
-        for(int end = start; end < n; end++) {
-            if(isPalindrome(s, start, end)) {
-                // 1 cut plus cuts for the remaining substring
-                int cuts = 1 + minCutsHelper(s, end + 1, dp);
-                minCuts = Math.min(minCuts, cuts); 
-            }
+            for(int j = i; j < n; j++) {
+                if(isPalindrome(s, i, j)) {
+                    int cuts = 1 + dp[j+1];
+                    minCuts = Math.min(minCuts, cuts);
+                }
+            } 
+            dp[i] = minCuts;
         }
-        return dp[start] = minCuts;
+        return dp[0];
     }
     public int minCut(String s) {
-        int n = s.length();
-        int[] dp = new int[n];
-        Arrays.fill(dp, -1);
-        return minCutsHelper(s, 0, dp);
+        return minCutsHelper(s);
     }
 }
