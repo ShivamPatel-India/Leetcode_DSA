@@ -318,6 +318,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
+| [1106-parsing-a-boolean-expression](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1106-parsing-a-boolean-expression) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1250-longest-common-subsequence) |
@@ -341,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0937-online-stock-span](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
+| [1106-parsing-a-boolean-expression](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1106-parsing-a-boolean-expression) |
 | [2227-sum-of-subarray-ranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2227-sum-of-subarray-ranges) |
 ## Design
 |  |
@@ -535,6 +537,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0044-wildcard-matching) |
+| [1106-parsing-a-boolean-expression](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1106-parsing-a-boolean-expression) |
 ## Binary Indexed Tree
 |  |
 | ------- |
