@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0216-combination-sum-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0300-longest-increasing-subsequence) |
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0162-find-peak-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0367-valid-perfect-square) |
@@ -262,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 ## Counting
 |  |
@@ -286,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0130-surrounded-regions) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0463-island-perimeter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0733-flood-fill) |
