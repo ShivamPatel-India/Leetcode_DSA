@@ -7,12 +7,12 @@ class Solution {
             return Integer.compare(a, b);
         });
 
-        for(int i = 0 ; i < n; i++) minHeap.add(i);
+        for(int i = 0 ; i < n; i++) minHeap.offer(i);
 
         for(int i = 0; i < k; i++) {
             int ind = minHeap.poll();
             res[ind] *= multiplier;
-            minHeap.add(ind);
+            minHeap.offer(ind);
         }
         return res;
     }
