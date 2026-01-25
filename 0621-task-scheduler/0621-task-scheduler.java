@@ -4,10 +4,11 @@ class Solution {
         for(char task: tasks) count[task-'A']++;
 
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-        for(int c: count) if(c > 0) maxHeap.add(c);
+        for(int cnt: count) if(cnt > 0) maxHeap.add(cnt);
 
-        Queue<int[]> q = new LinkedList<>();
         int time = 0;
+        Queue<int[]> q = new LinkedList<>();
+
         while(!maxHeap.isEmpty() || !q.isEmpty()) {
             time++;
             if(!maxHeap.isEmpty()) {
