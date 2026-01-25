@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0213-house-robber-ii) |
+| [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
@@ -273,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
@@ -405,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0744-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0744-network-delay-time) |
@@ -596,5 +600,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Quickselect
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
