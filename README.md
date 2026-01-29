@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1675-magnetic-force-between-two-balls](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1675-magnetic-force-between-two-balls) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -208,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0890-lemonade-change) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1829-maximum-units-on-a-truck](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1829-maximum-units-on-a-truck) |
 | [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
 ## Prefix Sum
@@ -263,6 +266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2427-first-letter-to-appear-twice](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2427-first-letter-to-appear-twice) |
@@ -290,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
 | [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
+| [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [2427-first-letter-to-appear-twice](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2427-first-letter-to-appear-twice) |
 ## Simulation
