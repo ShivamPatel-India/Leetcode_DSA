@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1642-furthest-building-you-can-reach](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1642-furthest-building-you-can-reach) |
 | [1646-kth-missing-positive-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1646-kth-missing-positive-number) |
 | [1675-magnetic-force-between-two-balls](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1675-magnetic-force-between-two-balls) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0890-lemonade-change) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
+| [1642-furthest-building-you-can-reach](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1642-furthest-building-you-can-reach) |
 | [1829-maximum-units-on-a-truck](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1829-maximum-units-on-a-truck) |
 | [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
 ## Prefix Sum
@@ -430,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-last-stone-weight) |
+| [1642-furthest-building-you-can-reach](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1642-furthest-building-you-can-reach) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [2558-take-gifts-from-the-richest-pile](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2558-take-gifts-from-the-richest-pile) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
