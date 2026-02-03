@@ -11,19 +11,19 @@ class Solution {
         Arrays.sort(pairs, (a,b) -> Integer.compare(b[1], a[1]));
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         
-        long kSum = 0;
+        long ksum = 0;
 
-        for(int i = 0; i <= k-1; i++) {
+        for(int i = 0; i < k; i++) {
             minHeap.offer(pairs[i][0]);
-            kSum += pairs[i][0];
+            ksum += pairs[i][0];
         }
 
-        long result = kSum * pairs[k-1][1];
+        long res = ksum * pairs[k-1][1];
         for(int i = k; i < n; i++) {
-            kSum += pairs[i][0] - minHeap.poll();
+            ksum += pairs[i][0] - minHeap.poll();
             minHeap.offer(pairs[i][0]);
-            result = Math.max(result, kSum * pairs[i][1]);
+            res = Math.max(res, ksum * pairs[i][1]);
         }
-        return result;
+        return res;
     }
 }
