@@ -398,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0355-design-twitter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0937-online-stock-span) |
+| [1845-seat-reservation-manager](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1845-seat-reservation-manager) |
 ## Queue
 |  |
 | ------- |
@@ -440,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1642-furthest-building-you-can-reach](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1642-furthest-building-you-can-reach) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
+| [1845-seat-reservation-manager](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1845-seat-reservation-manager) |
 | [2542-maximum-subsequence-score](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2542-maximum-subsequence-score) |
 | [2558-take-gifts-from-the-richest-pile](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2558-take-gifts-from-the-richest-pile) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
