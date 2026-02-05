@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1829-maximum-units-on-a-truck](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1829-maximum-units-on-a-truck) |
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
+| [1882-process-tasks-using-servers](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1882-process-tasks-using-servers) |
 | [1901-find-a-peak-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1901-find-a-peak-element-ii) |
 | [2058-concatenation-of-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2058-concatenation-of-array) |
 | [2227-sum-of-subarray-ranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2227-sum-of-subarray-ranges) |
@@ -442,6 +443,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
 | [1845-seat-reservation-manager](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1845-seat-reservation-manager) |
+| [1882-process-tasks-using-servers](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1882-process-tasks-using-servers) |
 | [2542-maximum-subsequence-score](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2542-maximum-subsequence-score) |
 | [2558-take-gifts-from-the-richest-pile](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2558-take-gifts-from-the-richest-pile) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
