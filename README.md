@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-last-stone-weight](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-last-stone-weight) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
+| [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
+| [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
@@ -226,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 ## Two Pointers
 |  |
 | ------- |
@@ -309,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0735-asteroid-collision) |
+| [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 | [2058-concatenation-of-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2058-concatenation-of-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2558-take-gifts-from-the-richest-pile](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2558-take-gifts-from-the-richest-pile) |
@@ -439,6 +443,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-last-stone-weight) |
+| [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 | [1642-furthest-building-you-can-reach](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1642-furthest-building-you-can-reach) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
