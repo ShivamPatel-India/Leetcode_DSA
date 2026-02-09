@@ -1,24 +1,22 @@
 class Solution {
     public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
         final int MOD = 1_000_000_007;
-        // engineers[][] = [efficiency, speed]
-        int[][] ers = new int[n][2];
+        int[][] engineers = new int[n][2];
         for(int i = 0; i < n; i++) {
-            ers[i][0] = efficiency[i];
-            ers[i][1] = speed[i];
+            engineers[i] = new int[]{efficiency[i], speed[i]};
         }
 
-        Arrays.sort(ers, (a,b) -> b[0] - a[0]);
+        Arrays.sort(engineers, (a,b) -> b[0] - a[0]);
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-        
-        long speedSum = 0, res = 0;
-        for(int i = 0; i < n; i++) {
+
+        long res = 0, speedSum = 0;
+        for(int[] engineer: engineers) {
             if(minHeap.size() == k) {
-                speedSum -= (long) minHeap.poll();
+                speedSum -= minHeap.poll();
             }
-            minHeap.offer(ers[i][1]);
-            speedSum += ers[i][1];
-            res = Math.max(res, ers[i][0] * speedSum);
+            minHeap.offer(engineer[1]);
+            speedSum += engineer[1];
+            res = Math.max(res, speedSum * engineer[0]);
         }
         return (int) (res % MOD);
     }
