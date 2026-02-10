@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1901-find-a-peak-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1901-find-a-peak-element-ii) |
 | [2058-concatenation-of-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2058-concatenation-of-array) |
 | [2227-sum-of-subarray-ranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2227-sum-of-subarray-ranges) |
+| [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2542-maximum-subsequence-score](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2542-maximum-subsequence-score) |
 | [2558-take-gifts-from-the-richest-pile](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2558-take-gifts-from-the-richest-pile) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1675-magnetic-force-between-two-balls](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1675-magnetic-force-between-two-balls) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1901-find-a-peak-element-ii) |
+| [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 ## Sorting
 |  |
 | ------- |
@@ -165,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1829-maximum-units-on-a-truck](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1829-maximum-units-on-a-truck) |
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
+| [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2542-maximum-subsequence-score](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2542-maximum-subsequence-score) |
 ## Dynamic Programming
 |  |
@@ -240,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
+| [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 ## Two Pointers
 |  |
 | ------- |
@@ -292,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2427-first-letter-to-appear-twice](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2427-first-letter-to-appear-twice) |
 ## Bit Manipulation
 |  |
@@ -654,4 +659,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
+## Ordered Set
+|  |
+| ------- |
+| [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 <!---LeetCode Topics End-->
