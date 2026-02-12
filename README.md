@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0416-partition-equal-subset-sum) |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0502-ipo) |
@@ -287,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0355-design-twitter) |
 | [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
@@ -316,12 +319,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
@@ -458,6 +463,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0355-design-twitter) |
 | [0502-ipo](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
@@ -612,6 +618,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 ## Radix Sort
 |  |
@@ -664,6 +671,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Ordered Set
 |  |
