@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1383-maximum-performance-of-a-team](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1383-maximum-performance-of-a-team) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
 | [1437-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1437-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -213,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1250-longest-common-subsequence) |
+| [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
@@ -429,6 +431,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -448,6 +451,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -466,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-last-stone-weight](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-last-stone-weight) |
 | [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 | [1383-maximum-performance-of-a-team](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1383-maximum-performance-of-a-team) |
+| [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
 | [1642-furthest-building-you-can-reach](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1642-furthest-building-you-can-reach) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
@@ -478,6 +483,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
+| [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
 ## Data Stream
 |  |
 | ------- |
