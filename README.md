@@ -677,4 +677,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
