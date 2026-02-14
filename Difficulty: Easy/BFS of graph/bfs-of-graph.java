@@ -11,12 +11,11 @@ class Solution {
         
         while(!q.isEmpty()) {
             int node = q.poll();
-            vis[node] = true;
             ans.add(node);
             
             for(int it: adj.get(node)) {
                 if(!vis[it]) {
-                    vis[it] =true;
+                    vis[it] = true;
                     q.offer(it);
                 }
             }
