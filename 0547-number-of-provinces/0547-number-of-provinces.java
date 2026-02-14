@@ -9,7 +9,8 @@ class Solution {
         for(int i = 0; i <= V; i++) {
             adj.add(new ArrayList<>());
         }
-        for(int i = 0 ; i < V; i++) {
+        boolean[] vis = new boolean[V+1];
+        for(int i = 0; i < V; i++) {
             for(int j = 0; j < V; j++) {
                 if(isConnected[i][j] != 0) {
                     adj.get(i+1).add(j+1);
@@ -18,7 +19,6 @@ class Solution {
             }
         }
         int count = 0;
-        boolean[] vis = new boolean[V+1];
         for(int i = 1; i <= V; i++) {
             if(!vis[i]) {
                 count++;
