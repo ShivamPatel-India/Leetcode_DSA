@@ -4,16 +4,13 @@ class Solution {
         ans.add(node);
         
         for(int it: adj.get(node)) {
-            if(!vis[it]) {
-                f(it, vis, adj, ans);
-            }
+            if(!vis[it]) f(it, vis, adj, ans);
         }
     }
     public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
         // code here
         ArrayList<Integer> ans = new ArrayList<>();
-        int V = adj.size();
-        boolean[] vis = new boolean[V];
+        boolean[] vis = new boolean[adj.size()];
         f(0, vis, adj, ans);
         return ans;
     }
