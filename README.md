@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0368-largest-divisible-subset) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
@@ -274,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0368-largest-divisible-subset) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 | [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
@@ -291,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0355-design-twitter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0496-next-greater-element-i) |
@@ -426,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0355-design-twitter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0937-online-stock-span) |
 | [1845-seat-reservation-manager](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1845-seat-reservation-manager) |
@@ -685,4 +689,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
