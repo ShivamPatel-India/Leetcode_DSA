@@ -6,7 +6,7 @@ class RandomizedSet {
     public RandomizedSet() {
         map = new HashMap<>();
         list = new ArrayList<>();
-        random = new Random();
+        random = new Random();    
     }
     
     public boolean insert(int val) {
@@ -18,13 +18,13 @@ class RandomizedSet {
     
     public boolean remove(int val) {
         if(!map.containsKey(val)) return false;
-        int index = map.get(val); // get the index of the value being deleted
-        int lastElement = list.get(list.size() - 1); // get the last element
+        int index = map.get(val);
+        int lastElement = list.get(list.size()-1);
         map.put(lastElement, index);
         list.set(index, lastElement);
-        map.remove(val);
         list.remove(list.size()-1);
-        return true; 
+        map.remove(val);
+        return true;
     }
     
     public int getRandom() {
