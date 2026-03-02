@@ -88,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
+| [0994-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0994-rotting-oranges) |
 | [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
@@ -360,6 +361,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0967-minimum-falling-path-sum) |
+| [0994-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -557,6 +559,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0854-making-a-large-island) |
+| [0994-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1171-shortest-path-in-binary-matrix) |
