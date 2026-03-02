@@ -1,8 +1,8 @@
 class Solution {
     public ArrayList<Integer> bfs(ArrayList<ArrayList<Integer>> adj) {
         // code here
-        int n = adj.size();
         ArrayList<Integer> ans = new ArrayList<>();
+        int n = adj.size();
         boolean[] vis = new boolean[n];
         Queue<Integer> q = new LinkedList<>();
         
@@ -15,8 +15,8 @@ class Solution {
             
             for(int it: adj.get(node)) {
                 if(!vis[it]) {
-                    q.offer(it);
                     vis[it] = true;
+                    q.offer(it);
                 }
             }
         }
