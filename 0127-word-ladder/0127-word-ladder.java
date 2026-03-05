@@ -10,7 +10,7 @@ class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Queue<Pair> q = new LinkedList<>();
 
-        q.add(new Pair(beginWord,1));
+        q.add(new Pair(beginWord, 1));
 
         Set<String> s = new HashSet<>();
         for(String w: wordList) {
@@ -26,14 +26,14 @@ class Solution {
             if(word.equals(endWord)) return steps;
 
             for(int i = 0; i < word.length(); i++) {
-                for(char ch= 'a' ; ch<='z'; ch++) {
+                for(char ch = 'a'; ch <= 'z'; ch++) {
                     char[] charArray = word.toCharArray();
                     charArray[i] = ch;
                     String newWord = new String(charArray);
 
                     if(s.contains(newWord)) {
                         s.remove(newWord);
-                        q.add(new Pair(newWord, steps+1));
+                        q.add(new Pair(newWord, steps + 1));
                     }
                 }
             }
