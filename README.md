@@ -532,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0210-course-schedule-ii) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0463-island-perimeter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0463-island-perimeter) |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
@@ -666,11 +667,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Binary Tree
 |  |
 | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
