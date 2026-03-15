@@ -1,34 +1,23 @@
 class Solution {
-    public boolean isBipartite(int[][] graph) {
-        int V = graph.length;
-        int[] color = new int[V];
+    private boolean dfs(int node, int[][] graph, int[] color, int clr) {
+        color[node] = clr;
 
-        for(int i = 0; i < V; i++) {
-            color[i] = -1;
+        for(int adjNode: graph[node]) {
+            if(color[adjNode] == -1 ) {
+                if(dfs(adjNode, graph, color, 1-clr) == false) return false;
+            } else if(color[adjNode] == clr) return false;
         }
-        
-        // queue will contain adjacent node and its color
-        Queue<int[]> q = new LinkedList<>();
-        for(int i = 0; i < V; i++) {
-            if(color[i] != -1) continue; // already visited so skip
+        return true;
+    }
+    public boolean isBipartite(int[][] graph) {
+        int n = graph.length;
+        int[] color = new int[n];
 
-            // starting fresh BFS with every new component
-            q.offer(new int[]{i,0});
-            color[i] = 0;
+        for(int i = 0; i < n; i++) color[i] = -1;
 
-            while(!q.isEmpty()) {
-                int node = q.peek()[0];
-                int nodeColor = q.peek()[1];
-                q.poll();
-
-                for(int adjNode: graph[node]) {
-                    if(color[adjNode] == -1) {
-                        q.offer(new int[]{adjNode, 1-nodeColor});
-                        color[adjNode] = 1-nodeColor;
-                    } else if(color[adjNode] == nodeColor) {
-                        return false;
-                    }
-                }
+        for(int i = 0; i < n; i++) {
+            if(color[i] == -1) {
+                if(dfs(i, graph, color, 0) == false) return false;
             }
         }
         return true;
