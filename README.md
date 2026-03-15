@@ -256,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0151-reverse-words-in-a-string) |
@@ -377,6 +378,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0044-wildcard-matching](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0072-edit-distance) |
@@ -523,6 +525,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String Matching
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0812-rotate-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0812-rotate-string) |
 ## Depth-First Search
 |  |
