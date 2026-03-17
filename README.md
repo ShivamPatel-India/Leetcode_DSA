@@ -544,6 +544,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0801-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0854-making-a-large-island) |
@@ -569,6 +570,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0801-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0854-making-a-large-island) |
@@ -609,6 +611,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0820-find-eventual-safe-states) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
@@ -712,6 +715,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0802-find-eventual-safe-states) |
 ## Randomized
 |  |
 | ------- |
