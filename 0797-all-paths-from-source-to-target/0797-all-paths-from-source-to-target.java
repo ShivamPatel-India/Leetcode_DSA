@@ -1,22 +1,19 @@
 class Solution {
-    private void dfs(int node, List<Integer> path, int[][] graph, List<List<Integer>> ans, int dest) {
+    private void dfs(int node, int[][] graph, List<Integer> path, int dest, List<List<Integer>> ans) {
         path.add(node);
 
         if(node == dest) ans.add(new ArrayList<>(path));
         else {
-            for(int adjNode: graph[node]) {
-                dfs(adjNode, path, graph, ans, dest);
-            }
+            for(int adjNode: graph[node]) dfs(adjNode, graph, path, dest, ans);
         }
         path.remove(path.size()-1);
     }
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        List<List<Integer>> ans = new ArrayList<>();
         int V = graph.length;
+        List<List<Integer>> ans = new ArrayList<>();
 
-        boolean[] vis = new boolean[V];
         List<Integer> path = new ArrayList<>();
-        dfs(0, path, graph, ans, V-1);
+        dfs(0, graph, path, V-1, ans);
         return ans;
     }
 }
