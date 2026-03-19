@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1642-furthest-building-you-can-reach](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1642-furthest-building-you-can-reach) |
 | [1646-kth-missing-positive-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1646-kth-missing-positive-number) |
 | [1675-magnetic-force-between-two-balls](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1675-magnetic-force-between-two-balls) |
@@ -141,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1646-kth-missing-positive-number) |
 | [1675-magnetic-force-between-two-balls](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1675-magnetic-force-between-two-balls) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
@@ -373,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1901-find-a-peak-element-ii) |
 ## String
@@ -493,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 | [1383-maximum-performance-of-a-team](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1383-maximum-performance-of-a-team) |
 | [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
+| [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1642-furthest-building-you-can-reach](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1642-furthest-building-you-can-reach) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
@@ -557,6 +561,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
@@ -587,6 +592,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
 |  |
@@ -718,6 +724,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
+| [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
