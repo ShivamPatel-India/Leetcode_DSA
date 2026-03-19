@@ -33,10 +33,9 @@ class Solution {
 
             if(x == n-1 && y == m-1) return wt;
 
-            for(int i: delRow) {
-                for(int j: delCol) {
-                    int nx = x + i;
-                    int ny = y + j;
+            for(int i = 0; i < 4; i++) {
+                    int nx = x + delRow[i];
+                    int ny = y + delCol[i];
 
                     if(nx >= 0 && ny >= 0 && nx < n && ny < m) {
                         int effort = Math.max(Math.abs(heights[x][y]-heights[nx][ny]), wt);
@@ -45,9 +44,8 @@ class Solution {
                             pq.add(new Tuple(nx, ny, effort));
                         }
                     }
-                }
             }
         }
-        return 0;
+        return 0; 
     }
 }
