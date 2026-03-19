@@ -38,7 +38,7 @@ class Solution {
         
         while(!st.isEmpty()) {
             int node = st.pop();
-            
+            if(dist[node] == (int)1e9) continue;
             for(Pair p: adj.get(node)) {
                 int adjNode = p.v;
                 int wt = p.wt;
