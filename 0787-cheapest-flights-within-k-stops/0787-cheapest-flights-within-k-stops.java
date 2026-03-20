@@ -43,7 +43,7 @@ class Solution {
                 int adjNode = p.v;
                 int wt = p.wt;
 
-                if(cost + wt < dist[adjNode] && stops <= k) {
+                if(cost + wt < dist[adjNode]) {
                     dist[adjNode] = cost + wt;
                     q.add(new Tuple(stops + 1, dist[adjNode], adjNode));
                 }
