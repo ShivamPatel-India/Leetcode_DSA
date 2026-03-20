@@ -2,21 +2,20 @@ class Solution {
     public ArrayList<Integer> bfs(ArrayList<ArrayList<Integer>> adj) {
         // code here
         ArrayList<Integer> ans = new ArrayList<>();
-        int n = adj.size();
-        boolean[] vis = new boolean[n];
         Queue<Integer> q = new LinkedList<>();
-        
-        q.offer(0);
+        int n = adj.size();
+        q.add(0);
+        boolean[] vis = new boolean[n];
         vis[0] = true;
         
         while(!q.isEmpty()) {
             int node = q.poll();
             ans.add(node);
             
-            for(int it: adj.get(node)) {
-                if(!vis[it]) {
-                    vis[it] = true;
-                    q.offer(it);
+            for(int adjNode: adj.get(node)) {
+                if(!vis[adjNode]) {
+                    vis[adjNode] = true;
+                    q.add(adjNode);
                 }
             }
         }
