@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
@@ -138,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0367-valid-perfect-square) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
+| [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
 | [0907-koko-eating-bananas](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -164,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
@@ -272,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0344-reverse-string) |
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
+| [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
 | [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -478,6 +482,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
 ## Heap (Priority Queue)
@@ -490,6 +495,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0355-design-twitter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0355-design-twitter) |
 | [0502-ipo](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0744-network-delay-time) |
