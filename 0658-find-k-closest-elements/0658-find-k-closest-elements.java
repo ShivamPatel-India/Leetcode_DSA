@@ -1,5 +1,5 @@
 class Solution {
-    private List<Integer> CustomComparator(int[] arr, int k, int x) {
+    private List<Integer> customComparator(int[] arr, int k, int x) {
         List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
         list.sort((a, b) -> {
             int diff = Math.abs(a-x) - Math.abs(b-x);
@@ -10,7 +10,7 @@ class Solution {
         Collections.sort(result);
         return result;
     }
-    private List<Integer> LinearScanTwoPointers(int[] arr, int k, int x) {
+    private List<Integer> linearScanTwoPointers(int[] arr, int k, int x) {
         int n = arr.length;
         int idx = 0;
 
@@ -87,9 +87,26 @@ class Solution {
         }
         return result;
     }
-    
+    private List<Integer> binarySearch(int[] arr, int k, int x) {
+        int l = 0, r = arr.length - k;
+        while (l < r) {
+            int m = (l + r) / 2;
+            if (x - arr[m] > arr[m + k] - x) {
+                l = m + 1;
+            } else {
+                r = m;
+            }
+        }
+        List<Integer> result = new ArrayList<>();
+        for (int i = l; i < l + k; i++) {
+            result.add(arr[i]);
+        }
+        return result;
+    }
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         // return LinearScanTwoPointers(arr, k, x);
-        return binarySearchTwoPointers(arr, k, x);
+        // return linearScanTwoPointers(arr, k, x);
+        // return binarySearchTwoPointers(arr, k, x);
+        return binarySearch(arr, k, x);
     }
 }
