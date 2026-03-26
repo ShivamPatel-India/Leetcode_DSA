@@ -1,4 +1,5 @@
 class Solution {
+    // checkout neetcode for full TC and SC explanation
     private List<Integer> customComparator(int[] arr, int k, int x) {
         List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
         list.sort((a, b) -> {
