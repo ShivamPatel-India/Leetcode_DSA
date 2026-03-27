@@ -1,113 +1,51 @@
 class Solution {
-    // checkout neetcode for full TC and SC explanation
-    private List<Integer> customComparator(int[] arr, int k, int x) {
-        List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
-        list.sort((a, b) -> {
-            int diff = Math.abs(a-x) - Math.abs(b-x);
-            return diff == 0 ? Integer.compare(a,b) : diff;
-        });
-
-        List<Integer> result = list.subList(0, k);
-        Collections.sort(result);
-        return result;
-    }
-    private List<Integer> linearScanTwoPointers(int[] arr, int k, int x) {
+    public List<Integer> findClosestElements(int[] arr, int k, int x) {
+        // binary search with two pointers;
+        // first lets find out the closest (largest smaller than x) element
         int n = arr.length;
-        int idx = 0;
+        int l = 0;
+        int r = n - 1;
 
-        // scan through the array and find the closest element to x 
-        for(int i = 1; i < n; i++) {
-            if(Math.abs(x-arr[idx]) > Math.abs(x-arr[i])) {
-                idx = i;
-            }
+        int ans = 0;
+        while(l <= r) {
+            int m = (l + r) / 2;
+            if(arr[m] <= x) {
+                ans = m;
+                l = m + 1;
+            } else r = m - 1;
         }
 
+        int start = 0;
+        if(ans + 1 < n && Math.abs(arr[ans+1]-x) < Math.abs(arr[ans]-x)) {
+            start = ans + 1; // right neighbor is closer
+        } else start = ans;
+
+        // now ans is pointing to the closest element to the x (largest smaller in this case)
+        l = start - 1;
+        r = start + 1;
+        
         List<Integer> res = new ArrayList<>();
-        res.add(arr[idx]);
-        int l = idx - 1, r = idx + 1;
+        res.add(arr[start]);
 
-        while(res.size() < k) {
+        while(r - l - 1 < k) {
             if(l >= 0 && r < n) {
-                if(Math.abs(x-arr[l]) <= Math.abs(x-arr[r])) {
-                    res.add(arr[l--]);
+                if(Math.abs(arr[r]-x) >= Math.abs(arr[l]-x)) {
+                    res.add(arr[l]);
+                    l--;
                 } else {
-                    res.add(arr[r++]);
+                    res.add(arr[r]);
+                    r++;
                 }
-            } else if(l >= 0) {
-                res.add(arr[l--]);
-            } else if(r < n) {
-                res.add(arr[r++]);
+            } else if (l < 0) {
+                res.add(arr[r]);
+                r++;
+            } else {
+                res.add(arr[l]);
+                l--;
             }
         }
-
+        
         Collections.sort(res);
         return res;
-    }
-    private List<Integer> twoPointers(int[] arr, int k, int x) {
-        int l = 0;
-        int r = arr.length - 1;
-
-        while(r - l >= k) {
-            if(Math.abs(x-arr[l]) <= Math.abs(x-arr[r])) {
-                r--;
-            } else l++;
-        }
-
-        List<Integer> ans = new ArrayList<>();
-        for(int i = l; i <= r; i++) ans.add(arr[i]);
-        return ans;
-
-    }
-    private List<Integer> binarySearchTwoPointers(int[] arr, int k, int x) {
-        int l = 0;
-        int r = arr.length - 1;
-
-        while(l < r) {
-            int m = (l + r) / 2;
-            if(arr[m] < x) l = m + 1;
-            else r = m;
-        }
-
-        l = l - 1;
-        r = l + 1;
-        while(r - l - 1 < k) {
-             if (l < 0) {
-                r++;
-            } else if (r >= arr.length) {
-                l--;
-            } else if (Math.abs(arr[l] - x) <= Math.abs(arr[r] - x)) {
-                l--;
-            } else {
-                r++;
-            }
-        }
-
-        List<Integer> result = new ArrayList<>();
-        for (int i = l + 1; i < r; i++) {
-            result.add(arr[i]);
-        }
-        return result;
-    }
-    private List<Integer> binarySearch(int[] arr, int k, int x) {
-        int l = 0, r = arr.length - k;
-        while (l < r) {
-            int m = (l + r) / 2;
-            if (x - arr[m] > arr[m + k] - x) {
-                l = m + 1;
-            } else {
-                r = m;
-            }
-        }
-        List<Integer> result = new ArrayList<>();
-        for (int i = l; i < l + k; i++) {
-            result.add(arr[i]);
-        }
-        return result;
-    }
-    public List<Integer> findClosestElements(int[] arr, int k, int x) {
-        // return LinearScanTwoPointers(arr, k, x);
-        // return linearScanTwoPointers(arr, k, x);
-        // return binarySearchTwoPointers(arr, k, x);
-        return binarySearch(arr, k, x);
     }
 }
