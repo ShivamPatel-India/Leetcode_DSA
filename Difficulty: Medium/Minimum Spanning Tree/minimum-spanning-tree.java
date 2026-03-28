@@ -1,5 +1,5 @@
 class Solution {
-    class Pair { 
+    class Pair {
         int node;
         int wt;
         Pair(int _node, int _wt) {
@@ -22,17 +22,17 @@ class Solution {
         pq.add(new Pair(0,0));
         
         while(!pq.isEmpty()) {
-            Pair pair = pq.poll();
-            int node = pair.node;
-            int wt = pair.wt;
+            Pair p = pq.poll();
+            int node = p.node;
+            int wt = p.wt;
             
             if(vis[node]) continue;
             vis[node] = true;
             sum += wt;
             
-            for(Pair p: adj.get(node)) {
-                int adjNode = p.node;
-                int adjWt = p.wt;
+            for(Pair np: adj.get(node)) {
+                int adjNode = np.node;
+                int adjWt = np.wt;
                 
                 if(!vis[adjNode]) pq.add(new Pair(adjNode, adjWt));
             }
