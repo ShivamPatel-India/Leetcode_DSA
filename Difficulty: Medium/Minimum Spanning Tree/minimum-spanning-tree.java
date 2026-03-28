@@ -1,33 +1,40 @@
 class Solution {
+    class Pair { 
+        int node;
+        int wt;
+        Pair(int _node, int _wt) {
+            this.node = _node;
+            this.wt = _wt;
+        }
+    }
     public int spanningTree(int V, int[][] edges) {
-        List<List<int[]>> adj = new ArrayList<>();
+        List<List<Pair>> adj = new ArrayList<>();
         for(int i = 0; i < V; i++) adj.add(new ArrayList<>());
         
         for(int[] edge: edges) {
-            adj.get(edge[0]).add(new int[]{edge[1], edge[2]});
-            adj.get(edge[1]).add(new int[]{edge[0], edge[2]});
+            adj.get(edge[0]).add(new Pair(edge[1], edge[2]));
+            adj.get(edge[1]).add(new Pair(edge[0], edge[2]));
         }
         
-        int sum = 0;    
+        int sum = 0;
         boolean[] vis = new boolean[V];
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> a.wt - b.wt);
+        pq.add(new Pair(0,0));
         
-        pq.add(new int[]{0,0});
-    
         while(!pq.isEmpty()) {
-            int node = pq.peek()[0];
-            int wt = pq.peek()[1];
-            pq.poll();
+            Pair pair = pq.poll();
+            int node = pair.node;
+            int wt = pair.wt;
             
             if(vis[node]) continue;
             vis[node] = true;
             sum += wt;
             
-            for(int[] neighbour: adj.get(node)) {
-                int adjNode = neighbour[0];
-                int adjWt = neighbour[1];
-                    
-                if(!vis[adjNode]) pq.add(new int[]{adjNode, adjWt});
+            for(Pair p: adj.get(node)) {
+                int adjNode = p.node;
+                int adjWt = p.wt;
+                
+                if(!vis[adjNode]) pq.add(new Pair(adjNode, adjWt));
             }
         }
         return sum;
