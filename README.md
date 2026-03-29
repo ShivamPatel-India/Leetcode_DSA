@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0747-min-cost-climbing-stairs) |
+| [0778-swim-in-rising-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0778-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0854-making-a-large-island) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0890-lemonade-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0890-lemonade-change) |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0367-valid-perfect-square](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0367-valid-perfect-square) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
+| [0778-swim-in-rising-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0778-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -375,6 +377,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0463-island-perimeter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0778-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0854-making-a-large-island) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0967-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0994-rotting-oranges) |
@@ -499,6 +502,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0744-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
@@ -565,6 +569,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0744-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0797-all-paths-from-source-to-target) |
@@ -596,6 +601,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0744-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0797-all-paths-from-source-to-target) |
@@ -748,6 +754,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
+| [0778-swim-in-rising-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
