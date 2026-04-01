@@ -582,6 +582,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
+| [1192-critical-connections-in-a-network](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
@@ -772,6 +773,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0797-all-paths-from-source-to-target](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [0802-find-eventual-safe-states](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0802-find-eventual-safe-states) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+| [1192-critical-connections-in-a-network](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -779,4 +781,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0380-insert-delete-getrandom-o1) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
