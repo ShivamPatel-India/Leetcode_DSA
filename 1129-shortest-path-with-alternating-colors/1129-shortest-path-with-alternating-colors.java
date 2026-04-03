@@ -1,37 +1,45 @@
 class Solution {
     public int[] shortestAlternatingPaths(int n, int[][] redEdges, int[][] blueEdges) {
-        List[] adj = new ArrayList[n];
+        List<List<int[]>> adj = new ArrayList<>();
         for(int i=0;i<n;i++){
-            adj[i] = new ArrayList<>();
+            adj.add(new ArrayList<>());
         }
         for(int[] red:redEdges){
-            adj[red[0]].add(new int[]{red[1],0});
+            adj.get(red[0]).add(new int[]{red[1],0}); // 0 - red color
         }
         for(int[] blue:blueEdges){
-            adj[blue[0]].add(new int[]{blue[1],1});
+            adj.get(blue[0]).add(new int[]{blue[1],1}); // 1 - blue color
         }
 
         Queue<int[]> queue = new LinkedList<>();
-        int[] res = new int[n];
-        Arrays.fill(res,-1);
-        res[0]=0;
-        boolean[][] v = new boolean[n][2];
+        int[] dist = new int[n];
+        Arrays.fill(dist,-1);
+        dist[0]=0;
+        boolean[][] vis = new boolean[n][2];
+        vis[0][0] = true;
+        vis[0][1] = true;
 
         queue.add(new int[]{0,0,-1}); //currentPos,distance,color
 
-        while(queue.size()>0){
+        while(!queue.isEmpty()){
             int[] prev = queue.remove();
-            List<int[]> nodes = adj[prev[0]];
-            for(int[] next:nodes){
-                if(!v[next[0]][next[1]] && next[1]!=prev[2]){
-                    if(res[next[0]]==-1){
-                        res[next[0]]=prev[1] + 1;
+            int node = prev[0]; 
+            int steps = prev[1];
+            int prevColor = prev[2];
+
+            for(int[] neighbour: adj.get(node)){
+                int adjNode = neighbour[0];
+                int color = neighbour[1];
+                
+                if(!vis[adjNode][color] && color != prevColor){
+                    if(dist[adjNode] == -1){
+                        dist[adjNode] = steps + 1;
                     }
-                    v[next[0]][next[1]] = true;
-                    queue.add(new int[]{next[0],prev[1]+1,next[1]});
+                    vis[adjNode][color] = true;
+                    queue.add(new int[]{adjNode, steps+1, color});
                 }
             }
         }
-        return res;
+        return dist;
     }
 }
