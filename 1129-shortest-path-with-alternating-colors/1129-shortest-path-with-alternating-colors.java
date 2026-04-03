@@ -1,42 +1,33 @@
 class Solution {
     public int[] shortestAlternatingPaths(int n, int[][] redEdges, int[][] blueEdges) {
         List<List<int[]>> adj = new ArrayList<>();
-        for(int i=0;i<n;i++){
-            adj.add(new ArrayList<>());
-        }
-        for(int[] red:redEdges){
-            adj.get(red[0]).add(new int[]{red[1],0}); // 0 - red color
-        }
-        for(int[] blue:blueEdges){
-            adj.get(blue[0]).add(new int[]{blue[1],1}); // 1 - blue color
-        }
+        for(int i = 0; i < n; i++) adj.add(new ArrayList<>());
+        for(int[] r: redEdges) adj.get(r[0]).add(new int[]{r[1], 0});
+        for(int[] b: blueEdges) adj.get(b[0]).add(new int[]{b[1], 1});
 
-        Queue<int[]> queue = new LinkedList<>();
         int[] dist = new int[n];
-        Arrays.fill(dist,-1);
-        dist[0]=0;
+        Arrays.fill(dist, -1);
         boolean[][] vis = new boolean[n][2];
+        Queue<int[]> q = new LinkedList<>();
+        q.add(new int[]{0, 0, -1}); // currentNode, steps, prevColor
+        dist[0] = 0;
         vis[0][0] = true;
         vis[0][1] = true;
 
-        queue.add(new int[]{0,0,-1}); //currentPos,distance,color
+        while(!q.isEmpty()) {
+            int[] current = q.poll();
+            int node = current[0];
+            int steps = current[1];
+            int prevColor = current[2];
 
-        while(!queue.isEmpty()){
-            int[] prev = queue.remove();
-            int node = prev[0]; 
-            int steps = prev[1];
-            int prevColor = prev[2];
-
-            for(int[] neighbour: adj.get(node)){
+            for(int[] neighbour: adj.get(node)) {
                 int adjNode = neighbour[0];
-                int color = neighbour[1];
-                
-                if(!vis[adjNode][color] && color != prevColor){
-                    if(dist[adjNode] == -1){
-                        dist[adjNode] = steps + 1;
-                    }
-                    vis[adjNode][color] = true;
-                    queue.add(new int[]{adjNode, steps+1, color});
+                int adjColor = neighbour[1];
+
+                if(!vis[adjNode][adjColor] && adjColor != prevColor) {
+                    vis[adjNode][adjColor] = true;
+                    if(dist[adjNode] == -1) dist[adjNode] = 1 + steps;
+                    q.add(new int[]{adjNode, 1 + steps, adjColor});
                 }
             }
         }
