@@ -232,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0747-min-cost-climbing-stairs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0747-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -259,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
 | [0502-ipo](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0890-lemonade-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0890-lemonade-change) |
@@ -433,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
@@ -457,6 +460,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0503-next-greater-element-ii) |
+| [0678-valid-parenthesis-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0735-asteroid-collision) |
 | [0937-online-stock-span](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
