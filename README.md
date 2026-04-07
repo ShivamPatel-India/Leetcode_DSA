@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
+| [0665-non-decreasing-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0665-non-decreasing-array) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
