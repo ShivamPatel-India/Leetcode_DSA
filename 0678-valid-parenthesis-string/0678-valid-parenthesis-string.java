@@ -53,6 +53,31 @@ class Solution {
         }
         return dp[0][0];
     }
+    private boolean f_optimized(String s) {
+        // var to track min open bracket at current ind
+        int minOpen = 0;
+        // var to track max open bracket at current ind
+        int maxOpen = 0;
+
+        for(char c: s.toCharArray()) {
+            // if char is '(' increase both minOpen and maxOpen
+            if(c == '(') {
+                minOpen++;
+                maxOpen++;
+            }
+            // if char is ')' decrease both minOpen and maxOpen 
+            else if(c == ')') {
+                minOpen--;
+                maxOpen--;
+            } else {
+                minOpen--;
+                maxOpen++;
+            }
+            if(minOpen < 0) minOpen = 0;
+            if(maxOpen < 0) return false;
+        }
+        return minOpen == 0;
+    }
     public boolean checkValidString(String s) {
         // return f(s, 0, 0, s.length());
 
@@ -61,6 +86,8 @@ class Solution {
         // for(int[] row: memo) Arrays.fill(row, -1);
         // return f_memo(s, 0, 0, memo, n) == 1; 
 
-        return f_tabulation(s);
+        // return f_tabulation(s);
+
+        return f_optimized(s);
     }
 }
