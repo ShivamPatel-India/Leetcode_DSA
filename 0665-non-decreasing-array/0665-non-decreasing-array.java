@@ -4,7 +4,7 @@ class Solution {
         int n = nums.length;
         
         for(int i = 0; i < n-1; i++) {
-            if(nums[i+1] < nums[i]) {
+            if(nums[i] > nums[i+1]) {
                 if(dip != -1) return false; // 2 dip found
                 dip = i;
             }
