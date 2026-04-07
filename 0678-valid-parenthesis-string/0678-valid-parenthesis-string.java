@@ -54,9 +54,9 @@ class Solution {
         return dp[0][0];
     }
     private boolean f_optimized(String s) {
-        // var to track min open bracket at current ind
+        // var to track min '(' at current ind that is if every * so far is treated as ')'
         int minOpen = 0;
-        // var to track max open bracket at current ind
+        // var to track max '(' at current ind that is if every * so far is treated as '('
         int maxOpen = 0;
 
         for(char c: s.toCharArray()) {
