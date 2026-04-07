@@ -2,7 +2,9 @@ class Solution {
     public int findJudge(int n, int[][] trust) {
         int[] count = new int[n+1];
         for (int[] t: trust) {
+            // outdegree
             count[t[0]]--;
+            // indegree
             count[t[1]]++;
         }
         for (int i = 1; i <= n; ++i) {
