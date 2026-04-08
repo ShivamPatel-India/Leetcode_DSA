@@ -10,7 +10,7 @@ class Solution {
 
         for(int i = 0; i < n; i++) {
             int[] current = bombs[i];
-            for(int j = 0; j < n; j++) {
+            for(int j = i + 1; j < n; j++) {
                 if(i == j) continue;
                 int[] neigh = bombs[j];
                 double d = findDist(current[0], current[1], neigh[0], neigh[1]);
