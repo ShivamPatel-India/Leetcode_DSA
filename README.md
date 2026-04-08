@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0380-insert-delete-getrandom-o1) |
+| [0399-evaluate-division](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0417-pacific-atlantic-water-flow) |
@@ -442,6 +443,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0332-reconstruct-itinerary](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0332-reconstruct-itinerary) |
 | [0344-reverse-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0399-evaluate-division](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0399-evaluate-division) |
 | [0402-remove-k-digits](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0516-longest-palindromic-subsequence) |
@@ -599,6 +601,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0332-reconstruct-itinerary) |
+| [0399-evaluate-division](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0463-island-perimeter) |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
@@ -634,6 +637,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0322-coin-change) |
+| [0399-evaluate-division](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0542-01-matrix) |
@@ -701,6 +705,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0399-evaluate-division) |
 | [0743-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -796,6 +801,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
 | [0778-swim-in-rising-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
@@ -807,6 +813,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0207-course-schedule) |
 | [0332-reconstruct-itinerary](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0332-reconstruct-itinerary) |
+| [0399-evaluate-division](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
