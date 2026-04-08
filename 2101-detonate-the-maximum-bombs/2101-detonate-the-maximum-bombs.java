@@ -22,7 +22,7 @@ class Solution {
         int max = Integer.MIN_VALUE; 
         for(int i = 0; i < n; i++) {
             boolean[] vis = new boolean[n];
-            max = Math.max(max, DFS(i, adj, vis));
+            max = Math.max(max, BFS(i, adj, vis));
         }
         return max;
     }
