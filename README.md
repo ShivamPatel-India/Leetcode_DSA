@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0040-combination-sum-ii) |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0018-4sum) |
 | [0056-merge-intervals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0169-majority-element) |
@@ -286,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0042-trapping-rain-water) |
