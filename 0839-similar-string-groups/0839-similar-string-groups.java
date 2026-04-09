@@ -1,42 +1,60 @@
 class Solution {
-    private boolean areSimilar(String s1, String s2) {
-        if(s1.equals(s2)) return true;
+    class DSU {
+        int[] parent, rank;
+        
+        public DSU(int n) {
+            parent = new int[n];
+            rank = new int[n];
+            for(int i = 0; i < n; i++) {
+                parent[i] = i;
+                rank[i] = 0;
+            }
+        }
+        public int findParent(int node) {
+            if(parent[node] == node) return node;
+            return parent[node] = findParent(parent[node]);
+        }
+        public void union(int u, int v) {
+            int pu = findParent(u);
+            int pv = findParent(v);
+            int rpu = rank[pu];
+            int rpv = rank[pv];
+
+            if(rpu < rpv) {
+                parent[pu] = pv;
+            } else if(rpv < rpu) {
+                parent[pv] = pu;
+            } else {
+                parent[pv] = pu;
+                rank[pu]++;
+            }
+        }
+    }
+    public boolean areSimilar(String s1, String s2) {
         int count = 0;
         int n = s1.length();
         for(int i = 0; i < n; i++) {
-            if(s1.charAt(i) != s2.charAt(i)) count++;
-            if(count > 2) return false;
+            if(s1.charAt(i) != s2.charAt(i)) {
+                count++;
+                if(count > 2) return false;
+            }
         }
         return true;
     }
-    private void DFS(int node, List<List<Integer>> adj, boolean[] vis) {
-        vis[node] = true;
-        for(int adjNode: adj.get(node)) {
-            if(!vis[adjNode]) DFS(adjNode, adj, vis);
-        }
-    }
     public int numSimilarGroups(String[] strs) {
         int n = strs.length;
-        List<List<Integer>> adj = new ArrayList<>();
-        for(int i = 0; i < n; i++) adj.add(new ArrayList<>());
-
+        DSU ds = new DSU(n);
         for(int i = 0; i < n; i++) {
             for(int j = i + 1; j < n; j++) {
-                if(areSimilar(strs[i], strs[j])) {
-                    adj.get(i).add(j);
-                    adj.get(j).add(i);
+                if(areSimilar(strs[i], strs[j]) && ds.findParent(i) != ds.findParent(j)) {
+                    ds.union(i, j);
                 }
             }
         }
-
-        boolean[] vis = new boolean[n];
-        int groupCount = 0;
+        int groups = 0;
         for(int i = 0; i < n; i++) {
-            if(!vis[i]) {
-                groupCount++;
-                DFS(i, adj, vis);
-            }
+            if(ds.findParent(i)==i) groups++;
         }
-        return groupCount;
+        return groups;
     }
 }
