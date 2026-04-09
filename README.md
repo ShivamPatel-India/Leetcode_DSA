@@ -635,6 +635,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2101-detonate-the-maximum-bombs) |
+| [2359-find-closest-node-to-given-two-nodes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2359-find-closest-node-to-given-two-nodes) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -841,6 +842,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2101-detonate-the-maximum-bombs) |
+| [2359-find-closest-node-to-given-two-nodes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2359-find-closest-node-to-given-two-nodes) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Randomized
 |  |
