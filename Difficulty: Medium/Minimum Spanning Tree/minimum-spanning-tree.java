@@ -1,40 +1,45 @@
 class Solution {
-    class Pair {
-        int node;
-        int wt;
-        Pair(int _node, int _wt) {
-            this.node = _node;
-            this.wt = _wt;
+    class DSU {
+        int[] parent, rank;
+        public DSU(int n) {
+            parent = new int[n];
+            rank = new int[n];
+            for(int i = 0; i < n; i++) {
+                parent[i] = i;
+                rank[i] = 0;
+            }
+        }
+        public int findParent(int node) {
+            if(parent[node] == node) return node;
+            return parent[node] = findParent(parent[node]);
+        }
+        public void union(int u, int v) {
+            int pu = findParent(u);
+            int pv = findParent(v);
+            int rpu = rank[pu];
+            int rpv = rank[pv];
+            
+            if(rpu < rpv) {
+                parent[pu] = pv; 
+            } else if(rpv < rpu) {
+                parent[pv] = pu;
+            } else {
+                parent[pv] = pu;
+                rank[pu]++;
+            }
         }
     }
     public int spanningTree(int V, int[][] edges) {
-        List<List<Pair>> adj = new ArrayList<>();
-        for(int i = 0; i < V; i++) adj.add(new ArrayList<>());
-        
-        for(int[] edge: edges) {
-            adj.get(edge[0]).add(new Pair(edge[1], edge[2]));
-            adj.get(edge[1]).add(new Pair(edge[0], edge[2]));
-        }
-        
+        DSU ds = new DSU(V);
+        Arrays.sort(edges, (a, b) -> a[2] - b[2]);
+        int count = 0;
         int sum = 0;
-        boolean[] vis = new boolean[V];
-        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> a.wt - b.wt);
-        pq.add(new Pair(0,0));
-        
-        while(!pq.isEmpty()) {
-            Pair p = pq.poll();
-            int node = p.node;
-            int wt = p.wt;
-            
-            if(vis[node]) continue;
-            vis[node] = true;
-            sum += wt;
-            
-            for(Pair np: adj.get(node)) {
-                int adjNode = np.node;
-                int adjWt = np.wt;
-                
-                if(!vis[adjNode]) pq.add(new Pair(adjNode, adjWt));
+        for(int[] e: edges) {
+            int u = e[0], v = e[1], w = e[2];
+            if(ds.findParent(u) != ds.findParent(v)) {
+                ds.union(u,v);
+                sum += w;
+                if(++count == V-1) break;
             }
         }
         return sum;
