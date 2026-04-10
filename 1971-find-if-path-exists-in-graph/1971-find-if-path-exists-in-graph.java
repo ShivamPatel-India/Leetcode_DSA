@@ -36,7 +36,8 @@ class Solution {
         DSU ds = new DSU(n);
         for(int[] e: edges) {
             int u = e[0], v = e[1];
-            if(ds.findPar(u) != ds.findPar(v)) ds.union(u, v);
+            ds.union(u, v);
+            if(ds.findPar(source) == ds.findPar(destination)) return true;
         }
         return ds.findPar(source) == ds.findPar(destination);
     }
