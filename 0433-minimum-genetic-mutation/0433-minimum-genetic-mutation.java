@@ -1,33 +1,35 @@
 class Solution {
     class Pair {
-        String word;
-        int step;
-        Pair(String _word, int _step) {
-            this.word = _word;
-            this.step = _step;
+        String gene;
+        int mutation;
+        Pair(String _gene, int _mutation) {
+            this.gene = _gene;
+            this.mutation = _mutation;
         }
     }
     public int minMutation(String startGene, String endGene, String[] bank) {
         Set<String> set = new HashSet<>();
-        for(String s: bank) set.add(s);
+        for(String b: bank) set.add(b);
         Queue<Pair> q = new LinkedList<>();
         q.add(new Pair(startGene, 0));
-        char[] c = {'A','C','G','T'};
+        char[] characters = {'A', 'C', 'G', 'T'};
+
         while(!q.isEmpty()) {
             Pair p = q.poll();
-            String word = p.word;
-            int step = p.step;
+            String gene = p.gene;
+            int m = p.mutation;
 
-            if(word.equals(endGene)) return step;
-            int n = startGene.length();
-            for(int i = 0; i < n; i++) {
-                for(char ch: c) {
-                    char[] charArray = word.toCharArray();
-                    charArray[i] = ch;
-                    String newWord = new String(charArray);
-                    if(set.contains(newWord)) {
-                        set.remove(newWord);
-                        q.add(new Pair(newWord, 1 + step));
+            if(gene.equals(endGene)) return m;
+
+            int n = gene.length();
+            for(int i = 0 ; i < n; i++) {
+                for(char ch: characters) {
+                    char[] geneCharArray = gene.toCharArray();
+                    geneCharArray[i] = ch;
+                    String newGene = new String(geneCharArray);
+                    if(set.contains(newGene)) {
+                        set.remove(newGene);
+                        q.add(new Pair(newGene, 1 + m));
                     }
                 }
             }
