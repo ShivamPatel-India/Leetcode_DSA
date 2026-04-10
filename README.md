@@ -133,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
 | [1882-process-tasks-using-servers](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1882-process-tasks-using-servers) |
 | [1901-find-a-peak-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1901-find-a-peak-element-ii) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1995-count-special-quadruplets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1995-count-special-quadruplets) |
 | [2058-concatenation-of-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2058-concatenation-of-array) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2101-detonate-the-maximum-bombs) |
@@ -424,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1901-find-a-peak-element-ii) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 ## String
 |  |
@@ -681,6 +683,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2101-detonate-the-maximum-bombs) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
