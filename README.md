@@ -355,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1995-count-special-quadruplets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1995-count-special-quadruplets) |
@@ -388,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0621-task-scheduler) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [2427-first-letter-to-appear-twice](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2427-first-letter-to-appear-twice) |
 ## Simulation
 |  |
@@ -638,6 +640,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1971-find-if-path-exists-in-graph) |
@@ -684,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1926-nearest-exit-from-entrance-in-maze) |
@@ -796,6 +800,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
+| [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
 ## Binary Tree
 |  |
 | ------- |
