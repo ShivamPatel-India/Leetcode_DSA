@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1995-count-special-quadruplets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1995-count-special-quadruplets) |
 | [2058-concatenation-of-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2058-concatenation-of-array) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2101-detonate-the-maximum-bombs) |
+| [2225-find-players-with-zero-or-one-losses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2227-sum-of-subarray-ranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2227-sum-of-subarray-ranges) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -204,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1829-maximum-units-on-a-truck](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1829-maximum-units-on-a-truck) |
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
+| [2225-find-players-with-zero-or-one-losses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2542-maximum-subsequence-score](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2542-maximum-subsequence-score) |
 ## Dynamic Programming
@@ -359,6 +361,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1995-count-special-quadruplets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1995-count-special-quadruplets) |
+| [2225-find-players-with-zero-or-one-losses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2427-first-letter-to-appear-twice](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2427-first-letter-to-appear-twice) |
 ## Bit Manipulation
@@ -390,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1519-number-of-nodes-in-the-sub-tree-with-the-same-label](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1519-number-of-nodes-in-the-sub-tree-with-the-same-label) |
+| [2225-find-players-with-zero-or-one-losses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2427-first-letter-to-appear-twice](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2427-first-letter-to-appear-twice) |
 ## Simulation
 |  |
