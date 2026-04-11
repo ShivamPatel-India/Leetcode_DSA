@@ -1,16 +1,16 @@
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
-        // count frequencies
-        Map<Integer, Integer> freq = new HashMap<>();
-        for(int num: arr) {
-            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        int[] hash = new int[2001];
+        boolean[] set = new boolean[2001];
+
+        for(int i : arr) hash[i + 1000]++;
+        for(int i : hash) 
+        {
+            if(i == 0) continue;
+            if(set[i + 1000]) return false;
+            set[i + 1000] = true;
         }
 
-        // check if all frequency values are unique
-        Set<Integer> seen = new HashSet<>();
-        for(int count: freq.values()) {
-            if(!seen.add(count)) return false; // duplicate frequency found
-        }
         return true;
     }
 }
