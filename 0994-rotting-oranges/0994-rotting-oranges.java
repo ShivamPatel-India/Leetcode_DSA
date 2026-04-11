@@ -1,44 +1,42 @@
 class Solution {
     public int orangesRotting(int[][] grid) {
-        int rows = grid.length;
-        int cols = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
+        int[] dx = {-1, 1, 0, 0};
+        int[] dy = {0, 0, -1, 1};
 
-        int total_oranges = 0;
         Queue<int[]> q = new LinkedList<>();
-
-        for(int i = 0; i < rows; i++) {
-            for(int j = 0; j < cols; j++) {
-                if(grid[i][j] != 0) total_oranges++;
-                if(grid[i][j] == 2) q.offer(new int[]{i,j});
+        int totalOranges = 0;
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j] == 0) continue;
+                if(grid[i][j] == 2) q.add(new int[]{i,j});
+                totalOranges++;
             }
         }
 
-        int explored_oranges = 0;
-
-        int[] dx = {-1,1,0,0};
-        int[] dy = {0,0,-1,1};
+        int explored = 0;
         int minTime = 0;
-
         while(!q.isEmpty()) {
             int size = q.size();
-            explored_oranges += size;
+            explored += size;
 
-            // rott all the oranges neighboring to the already rotten oranges
             for(int i = 0; i < size; i++) {
-                int[] point = q.poll();
+                int x = q.peek()[0];
+                int y = q.peek()[1];
+                q.poll();
                 for(int j = 0; j < 4; j++) {
-                    int x = dx[j] + point[0];
-                    int y = dy[j] + point[1];
+                    int nx = x + dx[j];
+                    int ny = y + dy[j];
 
-                    if(x<0 || y < 0 || x >= rows || y >= cols ||
-                    grid[x][y] == 0 || grid[x][y] == 2) continue;
-
-                    grid[x][y] = 2;
-                    q.offer(new int[]{x,y});
+                    if(nx >= 0 && ny >= 0 && nx < m && ny < n && grid[nx][ny] != 0 && grid[nx][ny] != 2) {
+                        grid[nx][ny] = 2;
+                        q.add(new int[]{nx, ny});
+                    }
                 }
             }
             if(q.size() != 0) minTime++;
         }
-        return explored_oranges == total_oranges ? minTime : -1;
+        return explored == totalOranges ? minTime : -1;
     }
 }
