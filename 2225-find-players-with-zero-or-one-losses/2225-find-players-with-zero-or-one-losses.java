@@ -1,24 +1,23 @@
 class Solution {
     public List<List<Integer>> findWinners(int[][] matches) {
-        // Map < player, number of losses > 
-        Map<Integer, Integer> lossCount = new HashMap<>();
-        for(int[] match: matches) {
-            int winner = match[0];
-            int loser = match[1];
-            lossCount.putIfAbsent(winner, 0);
-            lossCount.put(loser, lossCount.getOrDefault(loser, 0) + 1);
+        int[] lossCount = new int[100001];
+
+        for(int i = 0; i < matches.length; i++) {
+            int winner = matches[i][0];
+            int loser = matches[i][1];
+
+            if(lossCount[winner] == 0) lossCount[winner] = -1;
+            if(lossCount[loser] == -1) lossCount[loser] = 1;
+            else lossCount[loser]++;
         }
 
         List<Integer> noLoss = new ArrayList<>();
         List<Integer> oneLoss = new ArrayList<>();
 
-        for(Map.Entry<Integer, Integer> entry: lossCount.entrySet()) {
-            if(entry.getValue() == 0) noLoss.add(entry.getKey());
-            if(entry.getValue() == 1) oneLoss.add(entry.getKey());
+        for(int i = 0; i < lossCount.length; i++) {
+            if(lossCount[i] == -1) noLoss.add(i);
+            if(lossCount[i] == 1) oneLoss.add(i);
         }
-        Collections.sort(noLoss);
-        Collections.sort(oneLoss);
-
         List<List<Integer>> ans = new ArrayList<>();
         ans.add(noLoss);
         ans.add(oneLoss);
