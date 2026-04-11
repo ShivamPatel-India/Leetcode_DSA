@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1207-unique-number-of-occurrences](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1207-unique-number-of-occurrences) |
 | [1383-maximum-performance-of-a-team](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1383-maximum-performance-of-a-team) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
@@ -354,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0997-find-the-town-judge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0997-find-the-town-judge) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
+| [1207-unique-number-of-occurrences](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1207-unique-number-of-occurrences) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1510-find-lucky-integer-in-an-array) |
