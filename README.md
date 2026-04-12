@@ -145,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2542-maximum-subsequence-score](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2542-maximum-subsequence-score) |
 | [2558-take-gifts-from-the-richest-pile](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2558-take-gifts-from-the-richest-pile) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
 ## Binary Search
 |  |
@@ -437,6 +438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1901-find-a-peak-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1901-find-a-peak-element-ii) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 ## String
 |  |
 | ------- |
@@ -654,6 +656,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1971-find-if-path-exists-in-graph](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2101-detonate-the-maximum-bombs) |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2359-find-closest-node-to-given-two-nodes) |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -702,6 +705,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1971-find-if-path-exists-in-graph](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1971-find-if-path-exists-in-graph) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2101-detonate-the-maximum-bombs) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 ## Union Find
 |  |
 | ------- |
@@ -848,6 +852,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1971-find-if-path-exists-in-graph) |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 ## Graph Theory
 |  |
 | ------- |
