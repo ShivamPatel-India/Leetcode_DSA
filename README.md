@@ -368,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1995-count-special-quadruplets](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1995-count-special-quadruplets) |
 | [2225-find-players-with-zero-or-one-losses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2336-smallest-number-in-infinite-set](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2336-smallest-number-in-infinite-set) |
 | [2427-first-letter-to-appear-twice](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2427-first-letter-to-appear-twice) |
 ## Bit Manipulation
 |  |
@@ -518,6 +519,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0703-kth-largest-element-in-a-stream](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0937-online-stock-span) |
 | [1845-seat-reservation-manager](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1845-seat-reservation-manager) |
+| [2336-smallest-number-in-infinite-set](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2336-smallest-number-in-infinite-set) |
 ## Queue
 |  |
 | ------- |
@@ -579,6 +581,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1834-single-threaded-cpu](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1834-single-threaded-cpu) |
 | [1845-seat-reservation-manager](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1845-seat-reservation-manager) |
 | [1882-process-tasks-using-servers](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1882-process-tasks-using-servers) |
+| [2336-smallest-number-in-infinite-set](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2336-smallest-number-in-infinite-set) |
 | [2542-maximum-subsequence-score](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2542-maximum-subsequence-score) |
 | [2558-take-gifts-from-the-richest-pile](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2558-take-gifts-from-the-richest-pile) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -841,6 +844,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2336-smallest-number-in-infinite-set](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2336-smallest-number-in-infinite-set) |
 ## Union-Find
 |  |
 | ------- |
