@@ -1,31 +1,21 @@
 class Solution {
-    private int[] dx = {-1,1,0,0};
-    private int[] dy = {0,0,-1,1};
-
-    private int dfs(int x, int y, int[][] grid, boolean[][] vis) {
-        vis[x][y] = true;
+    private int helper(int x, int y, int[][] grid) {
+        if(x < 0 || y < 0 || x >= grid.length || y >= grid[0].length || grid[x][y] == 0) return 0;
         int fishCaught = grid[x][y];
+        grid[x][y] = 0;
 
-        for(int k = 0; k < 4; k++) {
-            int nx = x + dx[k];
-            int ny = y + dy[k];
-
-            if(nx < 0 || ny < 0 || nx >= grid.length || ny >= grid[0].length || vis[nx][ny] || grid[nx][ny] == 0) continue;
-            fishCaught += dfs(nx, ny, grid, vis); 
-        }
+        fishCaught += helper(x, y-1, grid) + helper(x, y+1, grid) + helper(x-1, y, grid) + helper(x+1, y, grid);
         return fishCaught;
     }
     public int findMaxFish(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
-
-        boolean[][] vis = new boolean[m][n];
         int maxFish = 0;
 
         for(int i = 0 ; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                if(grid[i][j] != 0 && !vis[i][j]) {
-                    maxFish = Math.max(maxFish, dfs(i, j, grid, vis));
+                if(grid[i][j] != 0) {
+                    maxFish = Math.max(maxFish, helper(i, j, grid));
                 }
             }
         }
