@@ -18,6 +18,7 @@ class Solution {
         public void union(int u, int v) {
             int pu = findParent(u);
             int pv = findParent(v);
+            if(pu == pv) return;
             int rpu = rank[pu];
             int rpv = rank[pv];
             if(rpu < rpv) {
