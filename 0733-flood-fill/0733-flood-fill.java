@@ -1,24 +1,19 @@
 class Solution {
-    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        int m = image.length;
-        int n = image[0].length;
-        Queue<int[]> q = new LinkedList<>();
-        q.add(new int[]{sr, sc});
-        int originalColor = image[sr][sc];
-        int[] dx = {-1,1,0,0};
-        int[] dy = {0,0,-1,1};
-        while(!q.isEmpty()) {
-            int[] point = q.poll();
-            image[point[0]][point[1]] = color;
-            for(int i = 0; i < 4; i++) {
-                int nsr = point[0] + dx[i];
-                int nsc = point[1] + dy[i];
+    public int[] dx = {-1,1,0,0};
+    public int[] dy = {0,0,-1,1};
+    public void dfs(int i, int j, int[][] image, int color, int oc) {
+        image[i][j] = color;
+        for(int k = 0; k < 4; k++) {
+            int ni = i + dx[k];
+            int nj = j + dy[k];
 
-                if(nsr < 0 || nsc < 0 || nsr >= m || nsc >= n || image[nsr][nsc] != originalColor || image[nsr][nsc] == color) continue;
-                image[nsr][nsc] = color;
-                q.add(new int[]{nsr, nsc});
-            }
+            if(ni<0 || nj<0 || ni>=image.length || nj>=image[0].length || image[ni][nj]==color || image[ni][nj]!=oc) continue;
+            dfs(ni, nj, image, color, oc);
         }
-        return image;
+    }
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        int originalColor = image[sr][sc];
+        dfs(sr, sc, image, color, originalColor);
+        return image;    
     }
 }
