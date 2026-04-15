@@ -12,6 +12,14 @@ class Solution {
             dfs(nx, ny, board, vis);
         }
     }
+    private void dfs2(int nx, int ny, char[][] board, boolean[][] vis) {
+        if(nx<0 || ny<0 || nx>=board.length || ny>=board[0].length || board[nx][ny] != 'O') return;
+        board[nx][ny] = '#';
+        dfs2(nx+1, ny, board, vis);
+        dfs2(nx-1, ny, board, vis);
+        dfs2(nx, ny+1, board, vis);
+        dfs2(nx, ny-1, board, vis);
+    }
     public void solve(char[][] board) {
         int m = board.length;
         int n = board[0].length;
@@ -19,14 +27,14 @@ class Solution {
 
         // first row - last row
         for(int k = 0; k < n; k++) {
-            if(board[0][k] == 'O' && !vis[0][k]) dfs(0,k,board,vis);
-            if(board[m-1][k] == 'O' && !vis[m-1][k]) dfs(m-1,k,board,vis);
+            if(board[0][k] == 'O' && !vis[0][k]) dfs2(0,k,board,vis);
+            if(board[m-1][k] == 'O' && !vis[m-1][k]) dfs2(m-1,k,board,vis);
         }
 
         // fist column - last column
         for(int k = 0; k < m; k++) {
-            if(board[k][0] == 'O' && !vis[k][0]) dfs(k,0,board,vis);
-            if(board[k][n-1] == 'O' && !vis[k][n-1]) dfs(k,n-1,board,vis);
+            if(board[k][0] == 'O' && !vis[k][0]) dfs2(k,0,board,vis);
+            if(board[k][n-1] == 'O' && !vis[k][n-1]) dfs2(k,n-1,board,vis);
         }
         
         for(int i = 0; i < m; i++) {
