@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0997-find-the-town-judge) |
 | [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
+| [1020-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1046-last-stone-weight](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-last-stone-weight) |
@@ -435,6 +436,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0934-shortest-bridge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0934-shortest-bridge) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0967-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -655,6 +657,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0934-shortest-bridge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0934-shortest-bridge) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1020-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1020-number-of-enclaves) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
 | [1192-critical-connections-in-a-network](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -700,6 +703,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0854-making-a-large-island](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0854-making-a-large-island) |
 | [0934-shortest-bridge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0934-shortest-bridge) |
 | [0994-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -860,6 +864,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0785-is-graph-bipartite](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0785-is-graph-bipartite) |
 | [0839-similar-string-groups](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0839-similar-string-groups) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+| [1020-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1971-find-if-path-exists-in-graph) |
