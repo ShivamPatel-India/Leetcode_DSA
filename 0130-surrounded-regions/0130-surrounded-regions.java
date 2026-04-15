@@ -4,11 +4,11 @@ class Solution {
     private int[] dx = {-1,1,0,0};
     private int[] dy = {0,0,-1,1};
     private void dfs(int x, int y, char[][] board, boolean[][] vis) {
-        vis[x][y] = true;
+        board[x][y] = '#';
         for(int k = 0; k < 4; k++) {
             int nx = x + dx[k];
             int ny = y + dy[k];
-            if(nx<0 || ny<0 || nx>=board.length || ny>=board[0].length || vis[nx][ny] || board[nx][ny] == 'X') continue;
+            if(nx<0 || ny<0 || nx>=board.length || ny>=board[0].length || board[nx][ny] == 'X' || board[nx][ny] == '#') continue;
             dfs(nx, ny, board, vis);
         }
     }
@@ -31,7 +31,8 @@ class Solution {
         
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                if(!vis[i][j] && board[i][j] == 'O') board[i][j] = 'X';
+                if(board[i][j] == 'O') board[i][j] = 'X';
+                else if(board[i][j] == '#') board[i][j] = 'O';
             }
         }
     }
