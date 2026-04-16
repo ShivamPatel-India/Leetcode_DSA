@@ -12,6 +12,9 @@ class Solution {
         Queue<Pair> q = new LinkedList<>();
         Set<String> s = new HashSet<>();
         for(String word: wordList) s.add(word);
+        if(!s.contains(endWord)) {
+            return 0;
+        }
         s.remove(beginWord);
         q.add(new Pair(beginWord, 1));
 
