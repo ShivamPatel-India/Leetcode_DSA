@@ -1,18 +1,13 @@
 class Solution {
-    public int n;
-    public long[][] dp;
-    public long solve(int idx, int[] nums, int isEven) {
-        if(idx >= n) return 0;
-        if(dp[idx][isEven] != -1) return dp[idx][isEven];
-        long skip = solve(idx + 1, nums, isEven);
-        long val = (isEven == 1) ? nums[idx] : -nums[idx];
-        long take = solve(idx + 1, nums, 1-isEven) + val;
-        return dp[idx][isEven] = Math.max(take, skip);
-    }
     public long maxAlternatingSum(int[] nums) {
-        n = nums.length;
-        dp = new long[n][2];
-        for(long[] row: dp) Arrays.fill(row, -1);
-        return solve(0, nums, 1);
+        int n = nums.length;
+        long[][] t = new long[n+1][2];
+        for(int i = 1; i < n+1; i++) { // 1 : even, 0 : odd
+            // even
+            t[i][1] = Math.max(t[i-1][0] - nums[i-1], t[i-1][1]);
+            // odd
+            t[i][0] = Math.max(t[i-1][1] + nums[i-1], t[i-1][0]);
+        }
+        return Math.max(t[n][0], t[n][1]);
     }
 }
