@@ -1,22 +1,19 @@
 class Solution {
-    private int n;
-    private long[][] dp;
-
-    private long solve(int idx, int[] nums, int flag) { // int flag instead of boolean for dp indexing
+    public int n;
+    public long[][] dp;
+    public long solve(int idx, int[] nums, int isEven) {
         if(idx >= n) return 0;
-        if(dp[idx][flag] != -1) return dp[idx][flag];
-
-        long skip = solve(idx+1, nums, flag); // skip current element
-        long val = (flag == 1) ? nums[idx] : -nums[idx]; // add or subtract
-        long take = solve(idx+1, nums, 1-flag) + val; // flip flag after taking
-
-        return dp[idx][flag] = Math.max(skip, take);
+        if(dp[idx][isEven] > -1) return dp[idx][isEven];
+        long skip = solve(idx + 1, nums, isEven);
+        long val = nums[idx];
+        if(isEven == 0) val = -val;
+        long take = solve(idx + 1, nums, 1-isEven) + val;
+        return dp[idx][isEven] = Math.max(take, skip);
     }
-
     public long maxAlternatingSum(int[] nums) {
         n = nums.length;
-        dp = new long[n][2];
-        for(long[] row: dp) Arrays.fill(row, -1);
-        return solve(0, nums, 1); // start with flag=1 meaning we add first
+        dp = new long[100001][2];
+        for(int i = 0; i < dp.length; i++) Arrays.fill(dp[i], -1);
+        return solve(0, nums, 1);
     }
 }
