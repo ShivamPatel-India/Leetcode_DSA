@@ -1,24 +1,18 @@
 class Solution {
-    private int n;
-    private int[][] dp;
-    private int solve(int i, int[] nums, int previ) {
-        if(i >= n) return 0;
-        if(previ != -1 && dp[i][previ] != -1) return dp[i][previ];
-
-        int take = 0;
-        if(previ == -1 || nums[i] > nums[previ]) {
-            take = 1 + solve(i+1, nums, i);
-        }
-        int skip = solve(i+1, nums, previ);
-        if(previ != -1) {
-            dp[i][previ] = Math.max(take, skip);
-        }
-        return Math.max(take, skip);
-    }
     public int lengthOfLIS(int[] nums) {
-        n = nums.length;
-        dp = new int[n+1][n+1];
-        for(int[] row: dp) Arrays.fill(row, -1);
-        return solve(0, nums, -1);
+        int n = nums.length;
+        int maxLIS = 1;
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1); 
+
+        for(int i = 1; i < n; i++) {
+            for(int j = 0; j < i; j++) {
+                if(nums[i] > nums[j]) {
+                    dp[i] = Math.max(dp[i], 1 + dp[j]);
+                    maxLIS = Math.max(dp[i], maxLIS);
+                }
+            }
+        }
+        return maxLIS;
     }
 }
