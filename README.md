@@ -270,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1170-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1250-longest-common-subsequence) |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1335-minimum-difficulty-of-a-job-schedule) |
+| [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -307,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0410-split-array-largest-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
+| [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
 ## Two Pointers
 |  |
