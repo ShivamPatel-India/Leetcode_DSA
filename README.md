@@ -112,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1046-last-stone-weight](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1046-last-stone-weight) |
+| [1048-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1048-longest-string-chain) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -205,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0948-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
+| [1048-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1048-longest-string-chain) |
 | [1094-car-pooling](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1094-car-pooling) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1383-maximum-performance-of-a-team](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1383-maximum-performance-of-a-team) |
@@ -263,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0967-minimum-falling-path-sum) |
+| [1048-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1048-longest-string-chain) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1250-longest-common-subsequence) |
@@ -323,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0455-assign-cookies) |
 | [0658-find-k-closest-elements](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0658-find-k-closest-elements) |
 | [1019-squares-of-a-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1019-squares-of-a-sorted-array) |
+| [1048-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1048-longest-string-chain) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Math
@@ -368,6 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0997-find-the-town-judge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0997-find-the-town-judge) |
+| [1048-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1048-longest-string-chain) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1207-unique-number-of-occurrences](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1207-unique-number-of-occurrences) |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1443-minimum-time-to-collect-all-apples-in-a-tree) |
@@ -492,6 +497,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0812-rotate-string) |
 | [0839-similar-string-groups](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0839-similar-string-groups) |
+| [1048-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1048-longest-string-chain) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
 | [1106-parsing-a-boolean-expression](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1106-parsing-a-boolean-expression) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
