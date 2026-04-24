@@ -4,27 +4,24 @@ class Solution {
         List<Integer> sorted = new ArrayList<>();
 
         for(int i = 0; i < n; i++) {
-            int index = binarySearch(sorted, nums[i]);
-            
-            if(index == sorted.size()) {
-                sorted.add(nums[i]);
-            } else {
-                sorted.set(index, nums[i]);
-            }
+            int index = binarySearch(nums[i], sorted);
+
+            if(index == sorted.size()) sorted.add(nums[i]);
+            else sorted.set(index, nums[i]);
         }
         return sorted.size();
     }
-    private int binarySearch(List<Integer> sorted, int target) {
-        int l = 0, r = sorted.size();
+    private int binarySearch(int target, List<Integer> sorted) {
+        int left = 0; int right = sorted.size();
         int result = sorted.size();
 
-        while(l < r) {
-            int m = l + (r - l) / 2;
-            if(sorted.get(m) < target) {
-                l = m + 1;
+        while(left < right) {
+            int mid = left + (right-left) / 2;
+            if(sorted.get(mid) < target) {
+                left = mid + 1;
             } else {
-                result = m;
-                r = m;
+                right = mid;
+                result = mid;
             }
         }
         return result;
