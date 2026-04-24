@@ -154,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2558-take-gifts-from-the-richest-pile](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2558-take-gifts-from-the-richest-pile) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2658-maximum-number-of-fish-in-a-grid) |
+| [2926-maximum-balanced-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2926-maximum-balanced-subsequence-sum) |
 | [3264-final-array-state-after-k-multiplication-operations-i](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/3264-final-array-state-after-k-multiplication-operations-i) |
 ## Binary Search
 |  |
@@ -179,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1901-find-a-peak-element-ii) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2926-maximum-balanced-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2926-maximum-balanced-subsequence-sum) |
 ## Sorting
 |  |
 | ------- |
@@ -278,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1911-maximum-alternating-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1911-maximum-alternating-subsequence-sum) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2926-maximum-balanced-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2926-maximum-balanced-subsequence-sum) |
 ## Greedy
 |  |
 | ------- |
@@ -835,10 +838,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [2926-maximum-balanced-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2926-maximum-balanced-subsequence-sum) |
 ## Segment Tree
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [2926-maximum-balanced-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2926-maximum-balanced-subsequence-sum) |
 ## Tree
 |  |
 | ------- |
