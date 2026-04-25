@@ -13,7 +13,7 @@ class Solution {
             int longest = 0;
             for(int j = left; j <= right; j++) longest = Math.max(longest, dp[j]);
 
-            dp[curr] = longest + 1;
+            dp[curr] = Math.max(dp[curr],longest + 1);
             ans = Math.max(ans, dp[curr]);
         }
         return ans;
