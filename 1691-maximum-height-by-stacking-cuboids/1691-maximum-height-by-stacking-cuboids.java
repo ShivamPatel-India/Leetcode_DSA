@@ -1,41 +1,29 @@
 class Solution {
-    private boolean check(int[] base, int[] newBox) {
-        return newBox[0] <= base[0] && newBox[1] <= base[1] && newBox[2] <= base[2];
-    }
-
-    private int solveTab(int n, int[][] a) {
-        int[] currRow = new int[n + 1];
-        int[] nextRow = new int[n + 1];
-
-        for(int curr = n-1; curr >= 0; curr--) {
-            for(int prev = curr-1; prev >= -1; prev--) {
-                // include
-                int take = 0;
-                if(prev == -1 || check(a[curr], a[prev])) {
-                    take = a[curr][2] + nextRow[curr + 1];
-                }
-                // exclude
-                int notTake = nextRow[prev + 1];
-
-                currRow[prev + 1] = Math.max(take, notTake);
-            }
-            nextRow = currRow.clone();
-        }
-        return nextRow[0];
-    }
-
     public int maxHeight(int[][] cuboids) {
-        // Step 1: sort dimensions of each cuboid
-        for(int[] a: cuboids) Arrays.sort(a);
+        int n = cuboids.length; // total cuboids
+        for(int[] cuboid: cuboids) Arrays.sort(cuboid);
 
-        // Step 2: sort all cuboids
-        Arrays.sort(cuboids, (a, b) -> {
-            if(a[0] != b[0]) return a[0] - b[0];
-            if(a[1] != b[1]) return a[1] - b[1];
-            return a[2] - b[2];
+        Arrays.sort(cuboids, (a,b) -> {
+            if(a[0] != b[0]) return b[0] - a[0];
+            if(a[1] != b[1]) return b[1] - a[1];
+            return b[2]-a[2];
         });
 
-        // Step 3: LIS logic
-        return solveTab(cuboids.length, cuboids);
+        int[] dp = new int[n];
+        int max = 0;
+
+        for(int i = 0; i < n; i++) {
+            dp[i] = cuboids[i][2];
+            for(int j = 0; j < i; j++) {
+                if(canPlace(cuboids[i], cuboids[j])) {
+                    dp[i] = Math.max(dp[i], dp[j] + cuboids[i][2]);
+                }
+            }
+            max = Math.max(max, dp[i]);
+        }
+        return max;
+    }
+    private boolean canPlace(int[]a, int[]b) {
+        return a[0]<=b[0] && a[1]<=b[1] && a[2]<=b[2];
     }
 }
