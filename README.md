@@ -275,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0967-minimum-falling-path-sum) |
 | [1048-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1048-longest-string-chain) |
+| [1092-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1092-shortest-common-supersequence) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1143-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1170-shortest-common-supersequence) |
@@ -516,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0839-similar-string-groups](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0839-similar-string-groups) |
 | [1048-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1048-longest-string-chain) |
 | [1078-remove-outermost-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1078-remove-outermost-parentheses) |
+| [1092-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1092-shortest-common-supersequence) |
 | [1106-parsing-a-boolean-expression](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1106-parsing-a-boolean-expression) |
 | [1129-longest-string-chain](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1129-longest-string-chain) |
 | [1143-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1143-longest-common-subsequence) |
