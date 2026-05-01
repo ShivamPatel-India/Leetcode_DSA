@@ -231,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0053-maximum-subarray) |
@@ -329,6 +330,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
@@ -487,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
