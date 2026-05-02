@@ -16,7 +16,6 @@ class Solution {
         return dp[m][m];
     }
     public int longestPalindromeSubseq(String s) {
-        StringBuilder sb = new StringBuilder(s);
-        return lps(s, sb.reverse().toString());    
+        return lps(s, new StringBuilder(s).reverse().toString());    
     }
 }
