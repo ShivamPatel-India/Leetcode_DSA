@@ -282,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1143-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1250-longest-common-subsequence) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1335-minimum-difficulty-of-a-job-schedule) |
 | [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1425-constrained-subsequence-sum](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1425-constrained-subsequence-sum) |
@@ -530,6 +531,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1170-shortest-common-supersequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1170-shortest-common-supersequence) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1250-longest-common-subsequence](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1250-longest-common-subsequence) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/ShivamPatel-India/Leetcode_DSA/tree/master/2032-largest-odd-number-in-string) |
