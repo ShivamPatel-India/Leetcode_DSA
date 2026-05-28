@@ -1,11 +1,11 @@
 class Solution {
     public ArrayList<Integer> bfs(ArrayList<ArrayList<Integer>> adj) {
-        int n = adj.size();
         ArrayList<Integer> ans = new ArrayList<>();
         Queue<Integer> q = new LinkedList<>();
+        int n = adj.size();
+        q.add(0);
         boolean[] vis = new boolean[n];
         vis[0] = true;
-        q.add(0);
         
         while(!q.isEmpty()) {
             int node = q.poll();
