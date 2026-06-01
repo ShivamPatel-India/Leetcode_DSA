@@ -3,12 +3,13 @@ class Solution {
     private int n;
     private int[][] dp;
     private int solve(String s1, String s2, int i, int j) {
-        if(i == m) return n-j;
-        if(j == n) return m-i;
+        if(i == m) return n-j; // s1 exhausted so we have to insert remaining chars from s2
+        if(j == n) return m-i; // s2 exhausted so delete remaining chars from s1
         if(dp[i][j] != -1) return dp[i][j];
         if(s1.charAt(i) == s2.charAt(j)) {
             return dp[i][j] = solve(s1, s2, i+1, j+1);
         } else {
+            // all operations are performed on s1
             int insert = 1 + solve(s1, s2, i, j+1);
             int delete = 1 + solve(s1, s2, i+1, j);
             int replace = 1 + solve(s1, s2, i+1, j+1);
