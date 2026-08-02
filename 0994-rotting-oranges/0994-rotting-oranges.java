@@ -10,8 +10,9 @@ class Solution {
     public int orangesRotting(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
+
         int[][] time = new int[m][n];
-        for(int i  = 0; i < m; i++) {
+        for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
                 if(grid[i][j] != 0) time[i][j] = Integer.MAX_VALUE;
             }
