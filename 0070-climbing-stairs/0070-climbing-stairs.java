@@ -13,13 +13,14 @@ class Solution {
 
         // Tabulation - going from last stair to 0th stair (bottom-up on recursive tree)
         if(n <= 1) return 1;
-        int[] dp = new int[n+1];
-        dp[n] = 1; // one-way to be on the last stair
-        dp[n-1] = 1; // one-way to go on second last stair from last stair
+        int last = 1; // one-way to be on the last stair
+        int secondLast = 1; // one-way to go on second last stair from last stair
 
         for(int i = n-2; i >= 0; i--) {
-            dp[i] = dp[i+1] + dp[i+2];
+            int temp = last + secondLast;
+            last = secondLast;
+            secondLast = temp;
         }
-        return dp[0];
+        return secondLast;
     }
 }
