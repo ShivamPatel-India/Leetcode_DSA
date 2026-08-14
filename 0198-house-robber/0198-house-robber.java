@@ -9,11 +9,26 @@ class Solution {
         return dp[index] = Math.max(rob, notRob);
 
     }
-    public int rob(int[] nums) {
-        // we have two options at each house - to rob or not to rob
+    private static int tabulation(int[] nums) {
         int n = nums.length;
         dp = new int[n+1];
-        Arrays.fill(dp, -1);
-        return robRecursive(nums, 0);
+        dp[n] = nums[n-1];
+        for(int i = n-1; i >= 0; i--) {
+            int rob = nums[i];
+            if(i < n-2) rob += dp[i+2];
+            int notRob = dp[i+1];
+            dp[i] = Math.max(rob, notRob);
+        }
+        return dp[0];
+    }
+    public int rob(int[] nums) {
+        // we have two options at each house - to rob or not to rob
+        
+        // int n = nums.length;
+        // dp = new int[n+1];
+        // Arrays.fill(dp, -1);
+        // return robRecursive(nums, 0);
+
+        return tabulation(nums);
     }
 }
