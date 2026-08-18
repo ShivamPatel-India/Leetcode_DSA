@@ -3,18 +3,17 @@ class Solution {
         int alen = a.length();
         int blen = b.length();
         if(alen != 1 + blen) return false;
-        int aPtr = 0;
-        int bPtr = 0;
-        while(aPtr < alen) {
-            if(bPtr < blen && a.charAt(aPtr) == b.charAt(bPtr)) {
-                aPtr++;
-                bPtr++;
-            } else aPtr++;
+        int aptr = 0;
+        int bptr = 0;
+        while(aptr < alen) {
+            if(bptr < blen && a.charAt(aptr) == b.charAt(bptr)) {
+                aptr++;
+                bptr++;
+            } else aptr++;
         }
-        return aPtr == alen && bPtr == blen;
+        return aptr == alen && bptr == blen;
     }
     public int longestStrChain(String[] words) {
-        // tabulation approach
         int n = words.length;
         Arrays.sort(words, (a,b) -> a.length() - b.length());
         int[] dp = new int[n];
@@ -24,7 +23,7 @@ class Solution {
             for(int j = 0; j < i; j++) {
                 if(isPredecessor(words[i], words[j])) {
                     dp[i] = Math.max(dp[i], 1 + dp[j]);
-                    ans = Math.max(ans, dp[i]);
+                    ans = Math.max(dp[i], ans);
                 }
             }
         }
