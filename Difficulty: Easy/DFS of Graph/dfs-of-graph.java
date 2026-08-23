@@ -1,21 +1,17 @@
 class Solution {
-    private int n;
-    private ArrayList<Integer> ans;
-    private void dfs(ArrayList<ArrayList<Integer>> adj, boolean[] vis, int node) {
+    public void dfs(ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> ans, boolean[] vis, int node) {
         vis[node] = true;
         ans.add(node);
         for(int adjNode: adj.get(node)) {
-            if(!vis[adjNode]) {
-                dfs(adj, vis, adjNode);
-            }
+            if(!vis[adjNode]) dfs(adj, ans, vis, adjNode);
         }
     }
     public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
         // code here
-        ans = new ArrayList<>();
-        n = adj.size(); // to get the total nodes
+        int n = adj.size();
         boolean[] vis = new boolean[n];
-        dfs(adj, vis, 0);
+        ArrayList<Integer> ans = new ArrayList<>();
+        dfs(adj, ans, vis, 0);
         return ans;
     }
 }
