@@ -1,15 +1,20 @@
 class Solution {
-    public void dfs(int ni, int nj, int[][] image, int color, int oc) {
-        if(ni<0 || nj<0 || ni>=image.length || nj>=image[0].length || image[ni][nj]==color || image[ni][nj]!=oc) return;
-        image[ni][nj] = color;
-        dfs(ni+1, nj, image, color, oc);
-        dfs(ni-1, nj, image, color, oc);
-        dfs(ni, nj+1, image, color, oc);
-        dfs(ni, nj-1, image, color, oc);
+    private int n;
+    private int m;
+    private void dfs(int[][] image, int sr, int sc, int color, int originalColor) {
+        if(sr < 0 || sc < 0 || sr >= m || sc >= n || image[sr][sc] != originalColor || image[sr][sc] == color) return;
+        image[sr][sc] = color;
+        dfs(image, sr+1, sc, color, originalColor);
+        dfs(image, sr-1, sc, color, originalColor);
+        dfs(image, sr, sc+1, color, originalColor);
+        dfs(image, sr, sc-1, color, originalColor);
     }
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        // in this problem, we can just apply the bfs and repaint every cell
+        m = image.length;
+        n = image[0].length;
         int originalColor = image[sr][sc];
-        dfs(sr, sc, image, color, originalColor);
-        return image;    
+        dfs(image, sr, sc, color, originalColor);
+        return image;
     }
 }
