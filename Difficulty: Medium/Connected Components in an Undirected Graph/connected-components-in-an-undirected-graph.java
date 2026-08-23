@@ -1,25 +1,25 @@
 class Solution {
-    private void dfs(int node, List<List<Integer>> adj, boolean[] vis, ArrayList<Integer> cmp) {
+    public void dfs(ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> ans, int node, boolean[] vis) {
         vis[node] = true;
-        cmp.add(node);
+        ans.add(node);
         for(int adjNode: adj.get(node)) {
-            if(!vis[adjNode]) dfs(adjNode, adj, vis, cmp);
+            if(!vis[adjNode]) dfs(adj, ans, adjNode, vis);
         }
     }
     public ArrayList<ArrayList<Integer>> getComponents(int V, int[][] edges) {
-        List<List<Integer>> adj = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
         for(int i = 0; i < V; i++) adj.add(new ArrayList<>());
-        for(int[] e: edges) {
-            adj.get(e[0]).add(e[1]);
-            adj.get(e[1]).add(e[0]);
+        for(int[] edge: edges) {
+            adj.get(edge[0]).add(edge[1]);
+            adj.get(edge[1]).add(edge[0]);
         }
         boolean[] vis = new boolean[V];
-        ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
         for(int i = 0; i < V; i++) {
             if(!vis[i]) {
-                ArrayList<Integer> cmp = new ArrayList<>();
-                dfs(i, adj, vis, cmp);
-                ans.add(cmp);
+                ArrayList<Integer> temp = new ArrayList<>();
+                dfs(adj, temp, i, vis);
+                ans.add(temp);
             }
         }
         return ans;
