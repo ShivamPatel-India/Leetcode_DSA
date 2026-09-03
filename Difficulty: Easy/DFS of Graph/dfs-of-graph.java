@@ -1,17 +1,17 @@
 class Solution {
-    public void dfs(ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> ans, boolean[] vis, int node) {
+    private int n;
+    private boolean[] vis;
+    private ArrayList<Integer> ans;
+    private void dfs(int node, ArrayList<ArrayList<Integer>> adj) {
         vis[node] = true;
         ans.add(node);
-        for(int adjNode: adj.get(node)) {
-            if(!vis[adjNode]) dfs(adj, ans, vis, adjNode);
-        }
+        for(int adjNode: adj.get(node)) if(!vis[adjNode]) dfs(adjNode, adj);
     }
     public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
-        // code here
-        int n = adj.size();
-        boolean[] vis = new boolean[n];
-        ArrayList<Integer> ans = new ArrayList<>();
-        dfs(adj, ans, vis, 0);
+        ans = new ArrayList<>();
+        n = adj.size();
+        vis = new boolean[n];
+        dfs(0, adj);
         return ans;
     }
 }
