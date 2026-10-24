@@ -1,19 +1,13 @@
 class Solution {
     private void dfs(int node, int[][] isConnected, boolean[] vis) {
         vis[node] = true;
-        for(int i = 0; i < isConnected.length; i++) {
+        int n = isConnected.length;
+        for(int i = 0; i < n; i++) {
             if(isConnected[node][i] == 1 && !vis[i]) {
                 dfs(i, isConnected, vis);
             }
         }
     }
-    // adjcency matric
-    //-------------------
-    //    0  1  2
-    //-------------
-    //0 | 1  1  0
-    //1 | 1  1  0
-    //2 | 0  0  1
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
         int province = 0;
