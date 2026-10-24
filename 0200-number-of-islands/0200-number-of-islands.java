@@ -1,16 +1,12 @@
 class Solution {
-    private int[] dx = {-1, 1, 0, 0};
-    private int[] dy = {0, 0, 1, -1};
     private void dfs(int x, int y, char[][] grid, boolean[][] vis) {
-        vis[x][y] = true;
-        for(int i = 0; i < 4; i++) {
-            int nx = x + dx[i];
-            int ny = y + dy[i];
-            // if this new coordinates are valid and the node on this coordinate is unvisited then only we fire dfs from this coords
-            if(nx >=0 && ny >= 0 && nx < grid.length && ny < grid[0].length && grid[nx][ny] == '1' && !vis[nx][ny]) {
-                dfs(nx, ny, grid, vis);
-            }
-        }
+        if(x >= 0 && y >= 0 && x < grid.length && y < grid[0].length && grid[x][y] == '1' && !vis[x][y]) {
+            vis[x][y] = true;
+            dfs(x+1, y, grid, vis);
+            dfs(x, y+1, grid, vis);
+            dfs(x-1, y, grid, vis);
+            dfs(x, y-1, grid, vis);
+        } else return;
     }
     public int numIslands(char[][] grid) {
         int m = grid.length;
