@@ -1,12 +1,11 @@
 class Solution {
     private void dfs(int x, int y, char[][] grid, boolean[][] vis) {
-        if(x >= 0 && y >= 0 && x < grid.length && y < grid[0].length && grid[x][y] == '1' && !vis[x][y]) {
-            vis[x][y] = true;
-            dfs(x+1, y, grid, vis);
-            dfs(x, y+1, grid, vis);
-            dfs(x-1, y, grid, vis);
-            dfs(x, y-1, grid, vis);
-        } else return;
+        if(x < 0 || y < 0 || x >= grid.length || y >= grid[0].length || grid[x][y] != '1' || vis[x][y]) return;
+        vis[x][y] = true;
+        dfs(x+1, y, grid, vis);
+        dfs(x, y+1, grid, vis);
+        dfs(x-1, y, grid, vis);
+        dfs(x, y-1, grid, vis);
     }
     public int numIslands(char[][] grid) {
         int m = grid.length;
