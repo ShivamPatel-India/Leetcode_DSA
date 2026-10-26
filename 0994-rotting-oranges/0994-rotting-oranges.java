@@ -21,7 +21,6 @@ class Solution {
                 if(grid[i][j] == 2) dfs(i, j, grid, time, 0);
             }
         }
-        // can cause some confusion as we are finiding the minTime to rot all oranges but from the time array we have to find the max value cause that is the time by which all the oranges in the grid will be rotten
         int minTime = Integer.MIN_VALUE;
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
